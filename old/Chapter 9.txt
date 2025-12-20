@@ -1,0 +1,1104 @@
+--- Page 1 ---
+Chapter Nine
+
+Some Lessons from
+
+Financial Market History
+
+We previously determined bond and stock values through discounted cash flow and the law of one price techniques.
+Arguably, the single most important question in finance is this:
+
+Are the prices we observe for bonds, stocks, and other investments unbiased estimates of their actual value?
+
+The answer to that question is crucial for anyone trying to achieve their financial goals through public securities.
+For the professional investor and the corporate manager alike, if prices deviate regularly and significantly from the
+value of the underlying asset, then there should be positive net present value opportunities aplenty. However, if
+prices on average are unbiased estimates of asset values, then it will be difficult to systematically identify mispricing
+that generates positive NPV investments. Since the primary goal of a for-profit enterprise is value maximization,
+we will take our time as we carefully consider the appropriate response to that big question.
+
+Investigation of that question began with the French mathematician Louis Jean-Baptiste Alphonse Bachelier in
+1900. Louis got the ball rolling by assuming stock prices result from an underlying random process. He’s the one
+responsible for planting the seed that the asset prices we observe result from a stochastic process, perhaps like a
+random walk. In modern times, the central figure in the discussion of asset prices and their values is undoubtedly
+Eugene Fama. In 1970, Dr. Fama published a famous paper in which he proposed his Efficient Market Hypothesis
+(EMH). In an efficient market, prices respond quickly and accurately to new information. Essentially, the theory is
+a careful examination of the fundamental equation of finance. Recall from Chapter Five,
+ye E[FYV | information]
+
+(1 + E[r | information])’
+
+In an efficient market, as new information arrives, market participants quickly revise their conditional expectations
+about an asset’s future cash flows and, of course, the anticipated risk. If market participants are risk-averse, then
+the perceived risk in the numerator will determine the expected return in the denominator. The nominal return risk-
+
+The chapter’s text was written by Mark J. Laplante, Ph.D.
+
+Copyright 2025. All rights reserved.
+
+Distribution of this chapter without the written consent of the author is strictly prohibited.
+
+This chapter derives some figures from Ross, Westerfield, and Jordan’s, “Fundamentals of Corporate Finance,” thirteenth edition, McGraw
+Hill Higher Education, 2021, though they were heavily edited.
+
+The data used for most tables and graphs are from the 2020 SBBI Yearbook from Duff & Phelps.
+
+
+--- Page 2 ---
+averse investors demand should reflect their views on inflation, their rate of time preference, and the real
+compensation they demand to bear the economic bad of uncertainty. If the market is efficient, then the market price
+incorporates all available and relevant information and it equals the present value. If Dr. Fama is right, then in an
+efficient market there is no reason to believe that the current price is too low or too high. On average, if information
+is fully impounded in the price, it should be just right.
+
+A corollary that follows from the Efficient Market Hypothesis is that mispricing is a fleeting opportunity that
+rational investors will fully exploit if they can to produce abnormal returns. An abnormal return is an outsized
+holding period yield that is disconnected from the risk borne by the investor. It’s the investor’s informational
+advantage that produces the big fat return, not solely the risk undertaken.
+
+Case in point, if you can buy a Jackson Pollock painting for $1,000 at a garage sale and sell it a year later for
+$100 million at Sotheby’s, the famous art auction house, you will generate a miraculous 9,999,900% return on
+investment in a single year. Of course, speculating on garage sale art is a risky business, but still, it doesn’t justify
+that kind of astronomical return. Your expectation might be for a 200%, or perhaps even a 1,000% return on hunting
+for garage sale treasures, certainly not ten million percent. The return here is abnormal because it’s disconnected
+from the risk you bear.
+
+The true source of your abnormal return is almost entirely due to the informational advantage you have over the
+seller. You know it could be a Pollock, and your counterparty doesn’t. Consequently, they’ve mispriced the asset
+and, through your superior knowledge, capture a ginormous net present value payoff for yourself.
+
+Investors who believe they possess superior skill at identifying mispriced assets that will generate abnormal
+returns are chasing alpha. Alpha is the excess performance beyond a risk-adjusted benchmark that a skilled investor
+delivers for themselves and their clients. In an efficient market, capturing alpha poses a significant challenge
+because, on average, asset prices are right. The alpha-hunting investor must be truly adept at spotting and quickly
+trading to exploit pricing anomalies, which may be few, fleeting, and far between if the EMH holds.
+
+An oft-ignored but vital aspect of the efficient market hypothesis is that an alpha-producing investment scheme
+must be a replicable strategy. Why? Because a big fat abnormal return might be nothing more than the product of
+plain dumb luck. To illustrate the importance of luck, assume that the probability of beating the S&P500 in a given
+year is nothing more than a fair coin toss. Make the further assumption that there are 100,000 chartered financial
+analysts (CFAs) in the U.S. trying to beat that benchmark. They all start the year by tossing a coin, heads they beat
+the S&P500, tails they don’t. Out of a pool of 100,000 coin tossers, probabilistically, there will be one CFA that
+will land seventeen straight heads, producing a long-run abnormal return for their clients. So, is our single surviving
+CFA a super investor with astounding abilities to exploit market anomalies? Of course, the CFA believes they are,
+and will spin a tale of unique alpha-generating superpowers for their client. However, the truth of the matter is that
+we expect some incredibly lucky investor to beat the S&P500 for long stretches of years out of a pool of 100,000
+coin flippers, be they a chartered financial analyst or a chimpanzee. On the other hand, an alpha-producing manager
+who repeats the feat beyond what’s explainable by chance indicates there are exploitable biases between asset prices
+and values due to an inefficient market. Ultimately, assessing a market’s efficiency comes down to careful empirical
+analysis.
+
+Because the concept figures so prominently in studies of market history, we describe the key points about the
+EMH here. To illustrate how prices behave in an efficient market, suppose Pfizer (PFE) has, through years of secret
+research and development, developed a new broad-spectrum anticancer daily supplement. PFE’s capital budgeting
+analysis suggests that launching the new supplement will be a highly profitable move; in other words, the expected
+net present value is hugely positive. The key assumption thus far is that Pfizer has not released any public
+
+
+--- Page 3 ---
+information about the new supplement. The supplement’s existence and its potentially blockbuster value-creating
+impact are private information known only to the C-suite and Pfizer’s board of directors.
+
+Now consider Pfizer’s share price. In an efficient market, its price reflects what traders know about PFE’s current
+operations and profitability, and it reflects the market opinion about PFE’s potential for future growth and profits.
+The share price does not reflect the supplement’s potential because the market is unaware of its existence.
+
+If the market agrees with PFE’s assessment of the value of the new project, PFE’s stock price will rise when the
+decision to launch is made public. For example, assume the board announces the supplement and its benefits in a
+press release on Wednesday morning. In an efficient market, the price of Pfizer’s shares will adjust quickly to this
+revelation. Investors should not be able to buy the stock on Wednesday afternoon and then sell it on Thursday to
+make a profit. To do so would imply that the stock market took a whole day to realize the implications of the press
+release. If the market is efficient, the share price will fully impound the press release information by Wednesday
+afternoon, and the opportunity to make a quick profit from the price bump will have vanished.
+
+The figure below presents three possible stock price adjustment paths for Pfizer shares. The figure represents an
+event study, where Day 0 corresponds to the day of the announcement. As illustrated, before the announcement,
+PFE’s stock sold for $140 per share. The NPV per share of the new supplement is, say, $40, so the new price will
+be $180 once the shares fully reflect the value added by the new project.
+
+220 °
+
+©» Overreation and correction
+©.
+a)
+WORF —S- Efficient market reaction
+e
+~ -%
+2 oc Delayed reaction
+8 140 -
+_
+a
+100
+
+1 1 1 |__| 1 |__t |,
+-§ -6 -4 -2 0 +2 +4 +6 +8
+Days relative to announcement day
+
+The solid line in the figure represents the path taken by the stock price in an efficient market. In this case, the
+price adjusts immediately to the new information by taking a big jump from $140 up to $180, and no further
+changes in the share price occur. If the price is the present value of all the expected future cash flows, then the $40
+increase is evidence that the market participants view the announcement as good news. It must be a positive surprise
+that took the market by surprise. There’s a whole host of possible suspects. In general, it could be the revelation of
+better-than-expected earnings for the quarter, a surge in consumer demand for the company’s products, the merger
+with its chief competitor, the dismissal of an enormous civil suit, or a research and development breakthrough.
+
+In this case, Pfizer’s supplement announcement provided investors with new, encouraging information, which
+they processed and used to update their conditional expectations. The efficient reaction would then be that those
+
+
+--- Page 4 ---
+expectations correctly reflect that the new supplements will add $40 of net present value per share, and the price
+will adjust instantaneously to incorporate the updated opinions of the traders.
+
+The dashed and dotted lines are alternative inefficient narratives where the initial price adjustment to the
+announcement surprise is incorrect, and it takes days for the price to adjust to a level that is an unbiased estimate of
+Pfizer’s value proposition. Consider the delayed reaction first. If that’s the average price path a stock takes upon
+the unexpected revelation of good news, do any traders have a profit incentive to collect the information, process
+it, and then use it to trade for their benefit? Suppose a clever and capable trader named Warren does just that, and
+realizes after four days that Pfizer’s press release should add $40 to the stock price. At that point, the stock trades
+at $160, but Warren believes it’s worth $180.
+
+What will he do? If he has faith that his analysis is valid, he’ll put his money where his mouth is and adopt a
+long strategy. A long strategy is the age-old attempt to buy low now and sell high later. In Warren’s case, he’ ll buy
+Pfizer at $160 and hope that the other traders will realize the stock is worth $180. In essence, he’s trying to capture
+the $20 of mispricing. However, he does not have to wait passively for the share price to rise. He will start buying
+Pfizer stock, and a lot of it.
+
+Ask yourself, how many shares will Warren want to buy at $160 when he thinks it’s underpriced by $20? How
+many shares of mispriced shares would you buy? The answer in both cases is as many as possible. Warren is an
+institutional investor, not a retail investor like you, so he can throw big dollars at the trade. His purchases will create
+excess demand for the stock, and in response, the price will start to rise. When the stock reaches $170, what does
+Warren do? He keeps buying. $175? He keeps at it. And when will Warren stop buying? He’ll stop going long when
+the market price equals Warren’s conditional expectation of $180. At that point, there’s no longer any mispricing
+to capture.
+
+The story leads us to two crucial conclusions. First, if Warren is right, he will generate $20 of profit on an initial
+investment of $160; that’s a 12.5% return in a matter of days. As you will see when we look at U.S. financial data
+later in this chapter, on average, an investor waits a year to earn a 12% return from holding a portfolio of common
+stock. Warren does it in a couple of days, not a year. That’s an abnormal return. That’s alpha. Is Warren bearing
+risk? Sure, he is. However, his 12% return is almost entirely due to the fact that he exploits his informational
+advantage to generate an abnormal return that is disconnected from the risk-reward tradeoff.
+
+The second point is that Warren’s self-interested profit-seeking actions make the market more efficient. Warren
+chasing alpha results in a full price adjustment in half the time, say four days instead of eight. The point is so
+important, we repeat it for emphasis. The informed trader’s actions wring the mispricing out of the market, making
+it more efficient. Ultimately, their trades actually take the profit potential off the table. If Warren can generate a
+positive alpha in four days, does Benjamin have an incentive to do the same thing more quickly, perhaps two days
+instead of four? Indeed, and the arms race is off and running. Market participants always have a profit incentive to
+collect, process, and trade on new relevant surprises faster than their competitors. If they can do it consistently, they
+will generate abnormal returns for themselves and their clients and become fabulously wealthy in the process. It’s
+this hypercompetitive logic that drives the ongoing efforts by institutional investors and their IT departments to
+shave milliseconds off the process.
+
+An alternative to the inefficient delayed response is an overreaction, represented by the dotted line in the figure.
+In this case, the traders fully recognize that Pfizer’s anticancer supplement revelation is excellent news for the
+shareholders, but their euphoria leads to the share price overshooting the efficient level of $180. They’re collectively
+suffering from a bout of irrational exuberance, if you will. In this scenario, do any traders with cooler heads have a
+
+
+--- Page 5 ---
+profit incentive, once again, to collect the information, correctly process it, and try to capture alpha through
+identifying mispricing? Yes, two parties in fact.
+
+The first are those investors whose portfolios currently hold Pfizer stock. Their analysis may lead them to the
+conclusion that the supplement is good news, but not that good. If they ascertain that the project’s value should add
+$40 to the price, but it currently trades at $220, what will they do? Put another way, how many shares will they
+want to sell at $220 that they think are truly worth $180? The answer is all of them. The investors currently holding
+Pfizer who arrive at this conclusion will dump the stock. As they sell, it will create excess supply, and the stock
+price will fall. Analagous to Warren’s actions, the trades of these profit-chasing investors will drive the price toward
+the efficient solution, making the market more efficient in the process. And when will they stop selling? When the
+market price equals the value of their conditional expectations, $180.
+
+And what of investors who do not own Pfizer? Can they turn a profit by correctly identifying the mispricing due
+to the overreaction? Yes, through a short sale. Suppose Muriel correctly concludes that Pfizer shares are overpriced
+at $220 but doesn’t own any. She can borrow them from her stockbroker, say Charles Schwab, and perhaps 500
+shares. Schwab will sell 500 shares on Muriel’s behalf at the going price, $220. That results in $110,000 of cash
+landing in Muriel’s account. She cannot touch the proceeds until she replaces the 500 borrowed shares. If the shares
+fall to $180 as predicted, Muriel can replace the 500 shares for $90,000, leaving her with a hefty profit of $20,000
+on no money down. In contrast to the long strategy of buying low earlier and selling high later, a short strategy is
+just the opposite. Muriel sells the borrowed shares at a high price now and repurchases them at a lower price later.
+Muriel’s informational advantage and trading strategy produce an infinite rate of return. That is undoubtedly
+abnormal.
+
+Muriel’s strategy is not quite as simple as described because there are transaction costs we ignore in the story.
+Nonetheless, short sales unsurprisingly involve selling the underlying asset, in this case, Pfizer stock. In
+combination, the selling activity of current owners and shorts who believe Pfizer is overpriced at $220 should
+quickly drive the share price towards the efficient level of $180.
+
+At first blush, the quick and correct adjustments to asset values predicted by Dr. Fama’s Efficient Market
+Hypothesis seem implausible. However, if you believe the world possesses clever and capable individuals who
+stand ready and able to capture abnormal returns through trading on pricing anomalies through either long or short
+positions, then the incentives create a kind of competitive doom loop that eliminates mispricing quickly. When we
+stop to thoroughly consider the motivations and behavior of rational profit-seeking human beings, market efficiency
+doesn’t seem so crazy after all.
+
+The efficient markets hypothesis (EMH) asserts that well-organized capital markets, such as the NYSE and
+NASDAQ, are efficient markets, at least as a practical matter. In other words, an advocate of the EMH might argue
+that although inefficiencies may exist, they are relatively small and uncommon. There is a subtlety to the efficient
+markets argument that many critics miss. The EMH doesn’t argue that market prices are always correct. Instead, it
+proposes that efficient markets produce unpredictable price movements. To see this, consider once again the
+fundamental equation of finance below.
+
+E [F V | information]
+
+PV= ;
+(1 + E[r | information])
+
+In an efficient market, the price should be an unbiased estimate of the present value of the expected future cash
+flows the asset will produce through an uncertain future. Critically, the valuation depends on the information set
+possessed by the market participants. Ask yourself the following question: What will happen to the asset’s value if
+
+
+--- Page 6 ---
+you receive new information that confirms the conditional expectations you already held? The answer is nothing.
+The expected cash flows and returns remain unchanged because the news confirms your beliefs, so the present value
+doesn’t budge an inch.
+
+So, what will change the price? A surprise. Some unanticipated revelation that forces you to revise your beliefs.
+In doing so, you will update your conditional expectations, and the result will be a change in the asset’s perceived
+value. However, by definition, a surprise is unpredictable. This is exactly EMH’s point. Unforeseen changes in asset
+prices follow from unforcastable revelations that alter the perceived valuations by the market participants. You can’t
+predict surprises; therefore, you can’t predict price adjustments. With this insight in mind, consider the following
+headline from the financial press.
+
+“Caprico Therapeutics Hammered On A Surprise FDA Rejection”
+
+The Food and Drug Administration rejected the company’s drug application for its experimental treatment of
+muscle-wasting conditions with its drug named deramiocel. The FDA notified the company that it hadn’t proved
+the effectiveness of deramiocel.
+
+So what do you think? Sounds like an expectedly bad outcome for the company, right? As an investor, how
+would you update your conditional beliefs about the expected future cash flows Caprico will produce for its owners?
+The drug rejection eliminates potentially two decades of monopoly profits from the timeline. No doubt you’d expect
+the price to fall due to a lower present value that incorporates now smaller future values. And that’s what happened.
+The headline uses “Hammered,” which actually is a journalistic flourish capturing that Caprico’s stock price
+tumbled by 33% after the announcement—in a single trading day. From the point of view of the EMH, here is the
+kicker. Who could have predicted the FDA rejection? Other than the FDA employees who drafted the rejection
+notice, the honest answer is nobody. The surprise was unpredictable, as was the ensuing stock adjustment.
+
+If Dr. Fama is right, and markets are reasonably efficient, then there is a profound implication for market
+participants: all investments in that market are zero net present value propositions. The reason is not complicated.
+If prices on average are neither too low nor too high, then the difference between what an investment is worth and
+what it costs is nil; hence, the expected NPV is zero. As a result, in an efficient market, investors get precisely what
+they pay for when they buy securities, and firms receive exactly what their stocks and bonds are worth when they
+float them, given the available information set at the time.
+
+What makes a market efficient is competition among investors. Many individuals spend their entire careers
+attempting to identify mispriced stocks. For any given stock, they study what has happened in the past to the stock’s
+price and its dividends. They learn, to the extent possible, what a company’s earnings have been, how much the
+company owes to creditors, what taxes it pays, what lines of business it is in, what competition does it face, what
+does it expend on research and development, the strategic vision of the CEO, what new investments are in the
+pipeline, it’s intellectual property which may represent barriers to entry, how sensitive it is to changes in the
+economy, and so on.
+
+Not only is there a great deal to know about any particular company, but there is also a powerful incentive for
+knowing it, namely, the profit motive. If you know more about a company than other investors in the marketplace,
+you can profit from that knowledge by investing in the company’s stock if you have good news and by selling it if
+you have bad news.
+
+The logical consequence of all this information gathering and analysis is that mispriced stocks will become
+increasingly rare. In other words, due to competition among intelligent and hardworking investors, the market will
+become increasingly efficient. A kind of equilibrium emerges when there is just enough mispricing for those who
+
+
+--- Page 7 ---
+are best at identifying it to make a living from it. For most other investors, gathering and analyzing information will
+not yield a worthwhile payday.
+
+In the end, the conceptual landscape for the alpha-chasing investor should be an uphill battle. Long and short
+strategies deployed to capture abnormal returns require price changes. However, those changes result from
+surprises, which, by their very nature, are unpredictable. That’s right, investors who think they can beat the market
+are essentially in the business of forecasting the unforecastable. As mere mortals who lack crystal balls, one might
+conclude that such efforts are unlikely to be fruitful, and that conclusion is spot on. The overwhelming empirical
+evidence indicates that once you account for fees, transaction costs, and dumb luck, identifying a genuine alpha
+investor is like finding a needle in the proverbial haystack. Put another way, the data indicate it’s really hard to
+produce abnormal returns, which strongly implies markets are reasonably efficient. We will have more to say about
+this conclusion below.
+
+Whether or not markets are efficient has been a raging, unsettled debate since Dr. Fama’s 1970 paper. Arguments
+for and against market efficiency sometimes take on a quasi-religious fervor. Importantly, it’s the actions of the
+alpha-seeking investor that push the price, either by going long or short, toward the efficient outcome.
+
+The anti-efficiency camp tends to fall along two lines. First, there are the behavioralists who view human
+cognition and actions as rife with systematic biases. They argue that human psychology and the resulting trading
+that follows can distort market prices and produce persistent anomalies. Chief among them are Daniel Kahneman,
+Amos Tversky, Robert Shiller, and Richard Thaler.
+
+Many financial practitioners constitute the second vocal cohort of EMH critics. If markets are efficient, then
+there will be few replicable opportunities to generate alpha. For a hedge fund manager charging their clients the
+eye-wateringly hefty 2-20 fees, efficient markets are bad news. They will charge their clients enormous fees and
+produce nothing in return.
+
+To give you a sense of the breadth and depth of the controversy surrounding the Efficient Market Hypothesis,
+consider the 2013 recipients of the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel. The
+winners were Eugene F. Fama, Robert J. Shiller, and Lars Peter Hansen. Excerpts from the nobelprize.org website
+follow.
+
+For many of us, the rise and fall of stock prices symbolizes economic development. In the 1960s, Eugene
+Fama demonstrated that stock price movements are impossible to predict in the short-term and that new
+information affects prices almost immediately, which means that the market is efficient.
+
+In the early 1980s, however, Robert Shiller discovered that stock prices can be predicted over a longer
+period, such as over the course of several years. In contrast to the dominant perception, stock prices
+fluctuated much more than corporate dividends. Shiller’s conclusion was therefore that the market is
+inefficient.
+
+In 1982, Lars Peter Hansen developed a statistical method for testing these types of theories.
+
+That’s right. The Nobel Prizes went to individuals who said markets are efficient, inefficient, and tried to test the
+truth of the matter statistically. If that doesn’t convince you of EMH’s controversial history, we don’t know what
+will.
+
+Having highlighted the debate, we can also say that much of the criticism of the EMH is misguided because it
+is based on a misunderstanding of what the hypothesis says and what it doesn’t. For instance, when the notion of
+
+
+--- Page 8 ---
+market efficiency was first publicized and debated in the popular financial press, it was often characterized by words
+to the effect that “throwing darts at the financial page will produce a portfolio that one can expect to do as well as
+any managed by professional security analysts.”
+
+Confusion over statements of this sort has often led to a failure to understand the implications of market
+efficiency. Case in point, consider the dart-throwing conjecture above. It implies that market efficiency means that
+it doesn’t matter how you invest your money because the efficiency of the market will protect you from making a
+mistake. However, a random dart thrower might wind up with all of the darts sticking in one or two high-risk stocks
+that deal in genetic engineering, or cluster in oil companies. Would you really want all of your money in such
+stocks? Probably not because you recognize there’s a decent chance that a random distribution of darts may leave
+you well and truly undiversified. Market efficiency will not protect you from foolishly putting all your eggs in one
+basket, so to speak.
+
+A contest run by The Wall Street Journal provides a good example of the controversy surrounding market
+efficiency. Each month, the Journal asked four professional money managers to pick one stock each. At the same
+time, it threw four darts at the stock page to select a comparison group. In the 147 five-and-a-half-month contests
+that spanned over twelve years, the pros won 90 times.
+
+The fact that the pros were ahead of the darts by 90 to 57 suggests that the pros might be able to identify
+mispricing because markets are not efficient. Or does it? One problem is that the darts naturally tend to select stocks
+of average risk. The pros are playing to win and naturally select riskier stocks, or so it is argued. If this is true, then,
+on average, we expect the pros to win because we know that higher risks garner larger rewards.
+
+Furthermore, the WSJ announced the pros’ picks to the public at the start of each contest. This publicity may
+have somewhat boosted the prices of the shares involved, leading to a partially self-fulfilling prophecy.
+Unfortunately, the Journal discontinued the contest, so this test of market efficiency is no longer ongoing. However,
+the story highlights that there are relevant subtleties to consider when evaluating tests of market efficiency, and that
+examining the issue is not as straightforward as it may seem at first glance.
+
+More than anything else, what efficiency implies is that the price a firm will obtain when it sells a share of its
+stock is a “fair” price in the sense that it reflects the value of that stock given the information available about the
+firm. Shareholders do not have to worry that they are paying too much for a stock with a low dividend or some
+other sort of characteristic because the market has already incorporated that characteristic into the price. We
+sometimes say that the information has been “priced out.”
+
+The idea behind the EMH was once illustrated by the following short story: A student was walking down the
+hall with her finance professor when they both saw a $20 bill on the ground. As the student bent down to pick it up,
+the professor shook his head slowly and, with a look of disappointment on his face, said patiently to the student,
+“Don’t bother. If it were really there, someone else would have picked it up already.” The moral of the story reflects
+the logic of the efficient markets hypothesis: If you think you have found a pattern in stock prices or a simple device
+for picking winners, you probably have not.
+
+A common objection made by critics is that the market cannot be efficient because stock prices fluctuate from
+day to day. If the prices are correct, the argument goes, then why do they change so much and so often? From our
+discussion of the market, we can see that these price movements are in no way inconsistent with the concept of
+efficiency. Investors are bombarded with new information every day, and that torrent undoubtedly contains its fair
+share of surprises. The fact that prices fluctuate is, at least in part, a reflection of that information flow changing
+conditional expectations in real time. In fact, the absence of price movements in a world that changes as rapidly as
+ours would suggest inefficiency.
+
+
+--- Page 9 ---
+It is common to distinguish between three forms of market efficiency. Depending on the degree of efficiency, we
+say that markets are either weak form efficient, semistrong form efficient, or strong form efficient. The
+difference between these forms relates to what information prices reflect.
+
+We start with the extreme case. If the market is strong form efficient, then all information of every kind is
+correctly impounded in asset prices. Public and private information is in the price under strong form efficiency. In
+such a market, there is no such thing as inside information. Consider the Pfizer example again. We implicitly
+assumed that the market was not strong form efficient. The board and C-suite had material information about the
+supplement project that the share price did not incorporate until the press release announced the investment to the
+general public. It was when the information moved from the private to the public domain that a price change
+resulted.
+
+Casual observation, particularly in recent years, suggests that inside information does exist, and it can be
+valuable to possess. Whether it is lawful or ethical to use that information is another issue. In any event, we conclude
+that valuable alpha-producing private information about a company and its plans certainly exists, and the current
+stock price probably does not reflect it. For example, prior knowledge of a takeover attempt could be very valuable
+because acquirers often pay a premium for the target. Buying the target now and selling after the acquisition
+announcement would likely yield a noteworthy abnormal return.
+
+The second form of efficiency, semistrong form efficiency, is the most controversial. If a market is semistrong
+form efficient, then all information available to the public at large is reflected in the stock price. The reason this
+form is controversial is that it implies that a security analyst who attempts to identify mispriced stocks, using, for
+example, financial statement disclosures filed with the Securities and Exchange Commission, is wasting their time.
+SEC filings are freely available to the public, so their release should impact the share price of a public company
+very quickly, taking the money off the table for the analyst.
+
+Weak form is the third type of market efficiency. It suggests that, at a minimum, the current price of a stock
+reflects the stock’s own price history and other market variables that anyone can observe. In other words, studying
+past prices and volume in an attempt to identify mispriced securities is futile if the market is weak form efficient.
+Although this form of efficiency might seem rather mild, it implies that searching for patterns in historical prices to
+identify mispriced stocks will not be effective (although this practice is quite common).
+
+Weak and semistrong efficiency depend on the information available to the general public. Semistrong
+encompasses all that information, while weak form covers a much smaller range of the set. Weak form focuses
+narrowly on historical market data, principally, price and volume. Let’s face it, the least you should know about a
+security is what its prices have been in the past. Ifa market is semistrong efficient, then it is also weak form efficient
+because market data is a subset of all public information. Though they differ, semistrong and weak form efficiency
+follow from the same underlying logic. If all the market participants have access to the same public resources, then
+nobody has an informational advantage. Without a distinct advantage, there’s no reason to believe a trader can use
+information everyone else has to capture abnormal returns. Along these lines, the famous Wall Street financier
+Bernard Baruch allegedly said it best: “Something that everyone knows isn’t worth anything.”
+
+If Bernard is correct, then two common stockpicking strategies are doomed to fail. As we saw in the last chapter,
+fundamental analysis is a discounted cash flow approach to stock valuation. The analyst estimates the expected
+future free cash flows a company is likely to produce, those above what’s necessary to cover the company’s
+operating expenses and capital investments, then uses an appropriate risk-adjusted discount rate to get their present
+value. The analyst then divides total value by the number of shares outstanding, and voila, arrives at an estimate of
+
+
+--- Page 10 ---
+what a share is worth. If the valuation is greater than the current market price, the analyst goes long. If the market
+price is greater than the estimated value, they short the stock.
+
+What could go wrong? Plenty. The fundamental problem (yes, that’s a pun) is that the analyst typically derives
+their estimates from publicly available resources, in particular, corporate SEC filings. That information is available
+to any interested party through the SEC’s EDGAR database. Check it out at sec.gov. Using data available to
+anybody confirms no informational advantage to the fundamental analyst. In addition, using that information to
+forecast the company’s expected future cash flows and ascertaining the appropriate discount rate is to enter a
+minefield of estimation error. Unsurprisingly, there is scant evidence to suggest fundamental analysis can reliably
+produce abnormal returns, which is consistent with semistrong efficiency.
+
+Another widespread stock picking approach is to use technical analysis, sometimes called charting, to identify
+winners and losers. While fundamental analysis tries to pierce the fog of a company’s uncertain future, technical
+analysis focuses entirely on its past. It uses historical market data, typically price and volume, to predict where a
+security’s price will go next. The most common approach is to use rolling long-run and short-run moving averages
+to try to extract reliable pricing signals from noisy price movements, then use the signals to capture alpha through
+long or short positions.
+
+There are serious conceptual problems with this strategy. If the market price is the present value of the
+conditionally expected future cash flows given the currently available information set, then why should the stock
+price from ninety days ago matter? The information today is superior to what was available to the trader three
+months ago. The position of the technical trader is that the three-month-old stock price contains useful predictive
+information that the current stock price lacks. By analogy, it’s like saying the weather three months ago is a better
+predictor of the weather tomorrow than the weather today. It simply does not pass the logical sniff test.
+
+If the market is weak form efficient, then technical analysis is a big waste of time. Many academic research
+studies that have examined the approach reject that, on average, the strategy can produce abnormal returns. The
+financial academic, practitioner, and author Burton Malkiel concludes, “Technical analysis is akin to astrology.”
+Along that same line of thought, most brokerage houses provide free technical analysis tools to their clients.
+Consider this quote from Charles Schwab about its thinkorswim trading platform.
+
+Get ready to trade with the best of ’em. With award-winning thinkorswim® platforms now at Schwab,
+you'll get powerful features and real-time insights that let you dive deeper into the market and your trading
+strategies.
+
+A skeptical student might rightly ask, if thinkorswim works, why would Schwab give it away? Wouldn’t the
+company keep it a secret and use it to successfully deliver abnormal returns to the Schwab shareholders? In fact, it
+would be the fiduciary obligation of the C-suite to do exactly that if the tool worked. The suspicious student might
+conclude that thinkorswim won’t produce abnormal returns because the market is weak form efficient, but it will
+encourage Schwab clients to trade frequently, generating fees for the brokerage house.
+
+It’s definitely not all smooth sailing for the Efficient Market Hypothesis. Momentum is definitely a thorn in the
+side of EMH. A momentum strategy assumes that stocks whose prices have made recent gains will make further
+gains going forward. Put succinctly, momentum trades try to exploit the idea that winners will keep winning. If
+true, momentum appears to clearly violate semistrong and weak form efficiency. Many academic studies document
+that momentum strategies can produce superior risk-adjusted returns across multiple asset classes, and the results
+are robust internationally. On its face, momentum contradicts the Efficient Market Hypothesis.
+
+10
+
+
+--- Page 11 ---
+However, like all things academic, there is an ongoing debate about the relationship between momentum and
+efficiency. First, is momentum a pricing anomaly, or is it compensating investors for a risk factor we do not fully
+understand? If that’s true, then momentum is consistent with the risk-reward tradeoff and efficiency. Second, the
+momentum anomaly appears to be diminishing. That shouldn’t come as a surprise. If traders believe winners will
+keep winning, and it takes virtually no skill to spot recent winners, then the excess demand for winners will push
+up their prices, and their expected returns will fall. So, perhaps momentum isn’t a nail in EMH’s coffin after all.
+
+We conclude our discussion of momentum and efficiency with a humorous anecdote. Cliff Asness was Dr.
+Fama’s doctoral student at the Booth School of Business at the University of Chicago (Booth was another of Fama’s
+
+.
+
+students). Mr. Asness’s dissertation, “Variables that Explain Stock Returns,” extended the momentum line of
+research. He went on to co-found the hedge fund AQR Capital Management and ultimately joined the rarefied
+billionaire’s club. Now that’s some alpha right there, all produced by a student of the very father of market
+efficiency. Wow.
+
+In conclusion, what does capital market history say about market efficiency? Here again, there is great
+controversy: At the risk of going out on a limb, we can say that the evidence seems to tell us three things. First,
+prices appear to respond rapidly to new information, and the response is at least not grossly different from what we
+would expect in an efficient market. Second, the future of market prices, particularly in the short run, is difficult to
+predict based on publicly available information. Third, if mispriced stocks exist, then there is no obvious means of
+identifying them. Put another way, simple-minded schemes based on publicly available information are unlikely to
+be successful. In other words, we will assume markets are reasonably semistrong form efficient going forward.
+
+Assuming markets are semistrong efficient is essential because we are about to examine the historical returns of
+several asset classes with an eye to learning important lessons. If the markets are not efficient, then the prices will
+not be meaningful, and the resulting returns will be nothing but noise. In contrast, if markets are reasonably efficient,
+then the prices we observe will be unbiased estimates of the assets’ actual values, and we may learn from their
+associated returns.
+
+Thus far, we haven’t had much to say about what determines the required return on an investment. In one sense, the
+answer is simple: The required return depends on the risk of the investment. The greater the risk, the greater is the
+required return. Having said this, we are left with a somewhat more difficult problem. How can we measure the
+level of risk associated with an investment? Put another way, what does it mean to say that one investment is riskier
+than another? Clearly, we need to define what we mean by ‘risk’ if we are to answer these questions. This is our
+task for the remainder of this chapter and the next. From the last several chapters, we know that one of the
+responsibilities of the financial manager is to assess the value of proposed real asset investments. In doing this, it is
+essential that we first look at what financial investments have to offer. At a minimum, the return we require from a
+project proposed in treasury must be greater than what we can get by buying financial assets of similar risk.
+
+Our goal in this chapter is to provide a perspective on what capital market history can tell us about risk and
+return. The most important thing to take away from this chapter is a feel for the numbers. What is a high return?
+What is a low return? More generally, what returns should we expect from alternative financial asset classes, and
+what are the risks of such investments? This perspective is essential for understanding how to analyze and value
+risky investment projects.
+
+We start our discussion of risk and return by describing the historical experience of investors in U.S. financial
+markets. In 1931, for example, the stock market lost 43 percent of its value. Just two years later, the stock market
+gained 54 percent. In more recent memory, the market lost about 25 percent of its value on October 19, 1987, alone.
+
+11
+
+
+--- Page 12 ---
+What lessons, if any, can financial managers learn from such shifts in the stock market? We will explore almost a
+century of market history to find out.
+
+Not everyone agrees on the value of studying history. On the one hand, there is philosopher George Santayana’s
+famous comment: “Those who do not remember the past are condemned to repeat it.” On the other hand, there is
+industrialist Henry Ford’s equally famous comment: “History is more or less bunk.” Nonetheless, perhaps everyone
+would agree with Mark Twain’s observation: “October. This is one of the peculiarly dangerous months to speculate
+in stocks. The others are July, January, September, April, November, May, March, June, December, August, and
+February.”
+
+We will discuss historical returns on different types of financial assets. Roger Ibbotson and Rex Sinquefield
+conducted a famous set of studies examining rates of return in U.S. financial markets. The source of their data and
+the graphs that follow come from The 2020 SBBI Yearbook from Duff & Phelps. They presented year-to-year
+historical rates of return on five noteworthy types of financial investments. You can interpret the returns as what
+you would have earned if you had held portfolios of the following:
+
+Fixed Income
+
+1. U.S. Treasury bills: These are T-bills with a one-month maturity, making them the reference riskless asset.
+The bills are rolled over each month so that all principal and interest get reinvested.
+
+2. Long-term U.S. government bonds: These are U.S. government bonds with 20 years to maturity, which lack
+credit and liquidity risk, but these bondholders bear price risk. After a year passes, the bond will have 19 years
+to maturity. It is sold and replaced with a 20-year bond in order to maintain the same exposure to interest rate
+risk throughout the time series. The portfolio reinvests all coupons.
+
+3. Long-term corporate bonds: These are investment-grade bonds with 20 years to maturity. Like the Treasurys,
+each year 19-year bonds are replaced with 20-year bonds to preserve the level of price risk. The portfolio
+reinvests all coupons. Corporate bondholders bear all fixed-income risks: liquidity, credit, and interest rate risk.
+
+Equity: The residual claimants of these companies bear more risk than all other parties with priority claims.
+
+4. Large-company stocks: This common stock portfolio is based on the Standard & Poor’s (S&P) 500 Index,
+which contains 500 of the largest companies (in terms of total market value of outstanding stock) in the United
+States. When large companies become small, they are replaced. When small companies grow large, they are
+added to the portfolio. The portfolio reinvests all dividends.
+
+5. Small-company stocks: This is a portfolio composed of the stock corresponding to the smallest 20 percent of
+the companies listed on the New York Stock Exchange, again as measured by the market value of outstanding
+stock. It is rebalanced annually to always hold the smallest 20 percent and reinvests any dividends paid.
+
+These returns are nominal pretax returns that are not adjusted for inflation. Of course, inflation matters to investors,
+so we present the year-to-year percentage change in the Consumer Price Index (CPI). With nominal returns and a
+measure of inflation, we can calculate the implied real rates of return on the different asset classes.
+
+We begin with the big picture. The figure on the next page shows what happened to $1 invested in these different
+portfolios at the end of 1925. The growth in value for each of the different portfolios over the 94 years ending in
+2021 is given separately (the figure omits the long-term corporate bonds for clarity). Notice that to get everything
+
+
+--- Page 13 ---
+on a single graph, we modify the typical scaling. As is commonly done with financial series, the vertical axis is
+scaled so that equal distances measure equal percentage changes in values. This is a logarithmic scale.
+
+Looking at the figure, we see that the small-cap investment did the best overall. Every dollar invested grew to a
+remarkable $49,052 over the 94 years. The large-company common stock portfolio did less well; a dollar invested
+in it grew to $11,535. At the other end of the spectrum, the T-bill portfolio rose to only $22.05. This is even less
+impressive when we consider the inflation over the period in question. As illustrated, the increase in the price level
+was such that $16.58 was needed at the end of the period just to replace the original $1.
+
+$100,000
+$49,052.04
+$11,535.21
+$10,000 : /*
+~/
+Small-company stocks
+$1,000 | /
+f*
+J Large-company
+SL stocks $130.89
+$100)
+$22.05
+$10} rf $16.58
+
+T-bills Inflation
+
+Year-end
+
+Given the historical record, why would anybody buy anything other than small-cap stocks? If you look closely,
+you will probably see the answer. The T-bill and long-term government bond portfolios grew more slowly than did
+the stock portfolios, but they also grew much more steadily. The small stocks ultimately prevailed, but as you can
+see, their growth was quite erratic at times. For example, the small stocks were the worst performers for about the
+first 10 years and had a smaller return than long-term government bonds for over 15 years. It’s clear that comparing
+the relatively smooth plots of the Treasurys against the highly jagged paths of the equities, stocks have significantly
+greater volatility than fixed-income instruments.
+
+13
+
+
+--- Page 14 ---
+To illustrate the variability at the opposite extremes of the investments, consider the plots for Treasury bills
+versus small company stock portfolios on the next page. The vertical bars drawn from the horizontal axis represent
+the year- to-year percentage returns. The height of the bar tells us the return for the particular year. For example,
+looking at Treasury bills, we see that the largest historical return of 14.71 percent occurred in 1981. This was a good
+year for nominal returns on the riskless asset, but that’s because inflation was running at 12.40 percent the year
+before.
+
+When comparing these charts, notice the differences in the vertical axis scales. With these differences in mind,
+you can see how predictably the Treasury bills behaved compared to the small-company stocks. The returns shown
+
+150, Small Company Stocks
+
+100+
+
+i | i A f al | cll lutte
+
+0
+
+x
+E -50f
+z Treasury Bills
+16,
+- 44
+12
+
+4
+2
+9 Ih. = wl hil bis |. ll
+
+1925 1930 1935 1940 1945 1950 1955 1960 1965 1970 1975 1980 1985 1990 1995 2000 2005 2010 2015 2020
+Year-end
+
+in these bar graphs are sometimes very large. Looking at the graphs, for example, we see that the largest single-year
+return is a remarkable 142.87 percent for the small-cap stocks in 1933, which is nearly ten times the maximum
+return of T-bills.
+
+While the small-cap portfolio’s highs are higher than those of Treasury bills, the other side of that coin is that
+the downside risks are sobering. You can see that there are many years of losses for someone holding a small
+company stock portfolio. In fact, thirty out of ninety-four years realized negative returns. That’s almost a third of
+all observations. The most significant loss was a decline of nearly 60 percent in 1931 during the Great Depression.
+
+In contrast, there was only one year in which T-bills had a negative nominal return of 2 bps in 1938. However,
+there was 2.78 percent deflation, implying that Treasury bills generated a real return of approximately 2.76 percent.
+For all the remaining years, T-bills had strictly positive nominal returns.
+
+1 There is a question as to whether 1938’s negative T-bill return actually occurred or was the result of inaccurately recorded
+data. For example, a different data set indicates the annual rate of return for 1938 was a positive 7 bps.
+
+14
+
+
+--- Page 15 ---
+We know from our prior work that there are two ways to measure an average return. You use the arithmetic average
+when considering the distribution of a random variable. It’s the value you expect before you withdraw your hand
+from a black bag of realized observations. You must use the geometric mean when applying time value of money
+equations. With these two measures in mind, the table below presents the summary statistics for the annual returns
+behind the Ibbotson-Sinquefield graphs. We include corporate bonds that the graphs did not show.
+
+Arithmetic Standard Geometric Real
+Average Deviation Max. Min. Mean Rate
+
+Inflation 2.9% 4.0% 18.2% -10.3% 2.9%
+
+T-bills 3.4 3.1 14.7 -0.02 3.3 0.39%
+
+Treasurys 6.0 9.8 40.4 -14.9 5.5 2.57
+Corporates 6.4 8.5 29.1 -15.7 6.1 3.11
+Big Co.s 12.1 19.8 54.0 -43.3 10.2 7.09
+Small Co.s 16.3 31.5 142.8 -59.8 11.9 8.75
+
+Given the nature of the arithmetic average return, if you were to pick a year at random from the 94-year history of
+corporate bonds and guess what the return was for that year, then the error-minimizing guess would be 6.4 percent.
+The data indicate that as we move from short-term T-bills, to 20-year bonds, to equities, the average arithmetic
+return increases.
+
+As for the geometric return, it’s the single return in the fundamental equation of finance that equates a dollar
+invested in a large company stock portfolio at the end of 1925 to $11,535.21 by the end of 2021, which is an annual
+geometric return of 10.2 percent. As expected, the portfolio’s geometric average return is less than its arithmetic
+average 12.1%. Nonetheless, the same pattern holds. The geometric returns increase as you move from the T-bills,
+to fixed-income, to stocks.
+
+Both of these averages are nominal returns, or percentage changes in dollars. At the same time your money is
+tied up in any of these investments, the data indicate that the general price level rose an average of 2.9 percent per
+year, as measured by the Consumer Price Index. Using the quick and dirty Fisher approximation, the average real
+return on Treasury bills is about 3.4 percent less 2.9 percent, or 50 bps of real consumption growth per year.
+
+However, when using time value of money equations, the geometric mean is the correct return, in this case, 3.3
+percent for Treasury bills. Applying the Fisher equation,
+
+1.033 = (1+ R) = 1.029
+
+Solving for the real rate produces 39 basis points per year. It is clear from the table’s data that the bulk of a T-bill’s
+return covers inflation. T-bills are riskless, so why did investors receive positive, albeit small, gains in purchasing
+power? The residual, a measly 39 bps per year, is the real compensation for waiting to consume while holding the
+riskless asset. The small real rate reflects the rate of time preference of the marginal investor. They demand extra
+purchasing power to put off the certain happiness of current consumption for later uncertain happiness (recall, they
+may die before they can enjoy the benefits of a riskless T-bill paying its face value).
+
+The returns are the economic goods. All else equal, you'd prefer a higher return, be it arithmetic or geometric.
+And what of the economic bad we call risk? We measure that by the standard deviation of returns as well as the
+return extrema for each asset class. Roughly speaking, the table’s pattern is quite convincing. As the risk increases,
+so too does the average return. Stocks are the riskiest and pay the most. The money market is secure and provides
+T-bill savers with the lowest reward. Bonds fall in between.
+
+
+--- Page 16 ---
+Before we can draw any broad conclusions about risk and reward from the data, an anomaly warrants discussion.
+Look closely at Treasurys and corporates. The Treasurys have a larger standard deviation and a wider range of
+annual returns, but they provide lower average returns to their owners. What’s going on here? It appears that these
+fixed-income securities violate our intuition about risk and reward.
+
+The first possibility is that the standard deviation and the range of possible outcomes are only proxies for the
+risks that bondholders care about. Perhaps there is another unknown or yet unnamed risk that bondholders bear and
+for which they receive compensation. In short, perhaps the standard deviation is the wrong measure of risk. We will
+investigate this prospect further in the next chapter.
+
+There is another explanation, and it requires us to revisit our fixed-income tools. The Ibbotson and Sinquefeld
+data compare 20-year Treasurys to 20-year corporates. Though they have the same time to maturity, not all else is
+equal between the two fixed-income classes. Consider the following list of bond attributes:
+
+Treasury Corporate
+
+no credit risk credit risk
+liquid not liquid
+
+no state & local tax fully taxable
+no call feature may be callable
+
+Given these disparate bond features, which twenty-year bond should have a much bigger coupon payment?
+Undoubtedly, the corporate issue, and accordingly, the Treasury will have a smaller coupon. Now, if two bonds
+have the same time to maturity but one has small coupons and the other has large ones, which one has more price
+risk? The conclusion is unmistakable. That means a 20-year Treasury will be much more sensitive to interest rate
+changes than a 20-year corporate bond. The bondholder receiving small coupons has relatively more of the
+security’s value tied up at the end of the timeline and will experience larger time value of money adjustments when
+market rates change. In other words, the Treasurys have more price risk due to their smaller coupons.
+
+This explains, to a large extent, why the Treasury has a larger standard deviation and a wider range of returns
+than the matching corporate counterpart. However, corporates have default risk that Treasurys don’t. Treasurys may
+swing more when market rates change, but they never lose all their value, unlike some corporates that default. In
+part, this may explain why the minimum return on corporates of -15.7 percent is lower than that of Treasurys at -
+14.9 percent. So, what is the net concern of the bondholders? Interest rate risk, credit and liquidity risks, and taxes?
+To answer the question, we need to consider what the data say about the risk premia, if any, investors require to
+hold the different asset classes.
+
+We know that risk-averse market participants will require higher expected returns (the good) to bear greater risk
+(the bad). We’ve seen previous empirical evidence to support this proposition, whether it was FICO scores and
+interest rates on consumer loans or the yields on investment-grade versus junk bonds. The 2020 SBBI Yearbook
+data summarizes nearly a century of investor behavior with many trillions of invested dollars at stake. In other
+
+words, it is both a broader and deeper investigation of the risk preferences of market participants than we’ve seen
+to this point.
+
+The data demonstrate that Treasury bills largely compensate their holders for inflation and provide small
+consumption gains of 39 bps per annum for waiting. If market participants are risk-averse, they will demand returns
+
+above and beyond the T-bill yield to hold any asset that has uncertain future values and payouts. In other words, we
+should see risk premia in the data, and we do.
+
+16
+
+
+--- Page 17 ---
+There are two ways to think of risk premia. First, any nominal interest rate beyond the Treasury bill’s 3.4%
+average annual rate of return must be compensation for risk. Second, the real rate on a Treasury bill is the market’s
+compensation for waiting to consume. Ifa risky asset has a real rate that exceeds that of a T-bill, it must reflect the
+extra compensation that risk-averse parties require to bear the economic bad of uncertainty. The table below
+summarizes the results from nearly a century of data.
+
+T-bills Treasurys Corporates _—_ Large Co. Small Co.
+
+Nominal Rate 3.4% 6.0 6.4 12.1 16.3
+Nominal risk premium 0% 2.4 2.8 8.7 12.9
+Real rate 0.39% 2.57 3.11 7.09 8.75
+
+Real risk premium 0% 2.18 2.72 6.70 8.36
+
+And what does the data say about risk aversion? Broadly speaking, whether measured by nominal or real rates,
+it’s a definitive empirical fact. At a minimum, Treasurys and corporates have price risk that T-bills don’t, and they
+pay bondholders more than 200 bps a year to bear it. Let’s repeat that for emphasis. Treasury bonds have no credit
+risk. They are the long-term riskless asset, but because their market prices fluctuate in unpredictable ways due to
+time-varying market conditions, bondholders demand more than two percent per year to hold a security that has no
+variation in its future payouts.
+
+This brings us back to our earlier discussion of Treasurys and corporates. Treasurys have more interest rate risk
+than corporates, but corporates have greater credit and liquidity risk, in addition to being fully taxable. So, on
+balance, what does the data say bondholders care about? Despite having lower price risk, corporates command
+nominal and real risk premia in excess of those Treasurys provide. In short, Treasurys may swing more because of
+a given interest change, but they never default and remain highly liquid, especially during financial crises. They
+also spare their owners the burdens of state and local taxes. Accordingly, the data suggest that bondholders view
+them as less risky than corporates. When it comes to the risk-reward tradeoff, there is no fixed-income paradox.
+
+Moving from fixed-income to equities involves risk premia measured in multiples. As we know, corporate
+bondholders have a priority claim over the company’s common stockholders. The bondholders require an average
+annual risk premium of about 2.8 percent to bear their security’s credit, interest rate, and reinvestment risks, not to
+mention that the coupon payments are fully taxable. However, to take one step down and become the riskier residual
+claimant, shareholders demand anywhere from an extra four to ten percent per year to bear that risk. Along this
+dimension, the data are unequivocal. Those who own equity stakes in public companies are extraordinarily risk-
+averse and demand enormous compensation to be at the end of the line for claims on a business enterprise’s cash
+flows.
+
+In fact, the chasm between the risk premia on fixed-income and stocks is so vast that it’s known as the equity
+premium puzzle. To date, there are no testable economic models of investor behavior that explain why shareholders
+are so risk-averse. The risk aversion exhibited by stockholders is so severe that if they acted similarly in their
+everyday lives, they would never cross a street because of the non-zero probability of getting run over. And yet, we
+see people playing the odds and risking crosswalks daily. It’s a conundrum. Solve it, and you can book your flight
+to Scandinavia to collect your Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.
+
+Of course, one explanation may be that our conclusions are erroneous because the data are the product of
+significant random sampling errors. In other words, perhaps the observations from a century of U.S. capital markets
+are a statistical anomaly that does not represent the risk preferences of investing human beings in general. The
+
+17
+
+
+--- Page 18 ---
+historical stock market risk premium has been substantial, but perhaps it is too big and overestimates what is likely
+to happen in the future. Any time we use the past to predict the future, there is the danger that the past period we
+observe isn’t representative of what the future will hold—the classic turkey problem. For example, this chapter
+studies the period 1926-2019. Perhaps investors got lucky over this period and earned exceptionally high returns.
+Data from earlier years is available, though it is not of the same quality. With that caveat in mind, researchers have
+traced returns back to 1802, and the risk premiums seen in the pre-1926 era are perhaps a little smaller, but not
+dramatically so.
+
+Another possibility is that the U.S. stock market experience was unusually good. Investors in at least some other
+major countries did not do as well because their financial markets were wholly or nearly wiped out by revolution,
+war, or hyperinflation. A study? addresses this issue by examining equity risk premium data from 1900 to 2005 for
+seventeen countries.
+
+Below Average Average Above Average
+Denmark 4.5% 71% United States 7.4%
+Belgium 5.0 Sweden 8.0
+Switzerland 5.3 South Africa 8.3
+Spain 5.5 Australia 8.5
+Norway 5.7 Germany 9.1
+Canada 5.9 France 9.3
+Ireland 6.0 Japan 9.8
+Uk 6.1 Italy 10.5
+
+Netherlands 6.6
+
+Looking at the numbers, the U.S. risk premium is the 8th highest at 7.4 percent, which differs from our earlier risk
+premia estimates because of the different sample periods. The overall average risk premium is 7.1 percent. These
+numbers make it clear that U.S. investors did well, but not exceptionally so, relative to investors in many other
+countries. But that’s not the critical point. The essential conclusion is that stockholders around the globe exhibit
+severe risk aversion and require significant compensation to accept the business enterprise’s riskiest position, that
+of the residual claimant. In other words, the data produced by nearly a century of U.S. capital market history isn’t
+some statistical fluke. In the context of the global shareholder experience, it appears that the conclusions we draw
+from it are rock solid.
+
+Having carefully considered Treasurys versus corporates and the equity premium, we come to a definitive yet
+somewhat anticlimactic conclusion. The risk-reward tradeoff that results from risk aversion, as postulated in
+Chapter Five, and the empirical glimpses of support we’ve seen along the way, are a financial economic reality. If
+markets are reasonably efficient, implying we can learn essential lessons from meaningful returns, then risk is
+unambiguously an economic bad. To attract risk-averse participants, markets must offer them motivating rewards,
+such as high compensatory expected returns. That’s one side of the coin. The other side is that significant expected
+returns imply sizable anticipated volatility. High risks imply high rewards. High rewards imply high risks. The risk-
+averse investor behavior that produces the risk-reward tradeoff is a pillar of modern financial theory. It’s not a
+hypothesis. It’s a fact.
+
+2“The Worldwide Equity Premium: A Smaller Puzzle.” Elroy Dimson, et al. In Handook of the Equity Premium, Rajnish
+Mehra, editor. Elsevier, 2007.
+
+18
+
+
+--- Page 19 ---
+We conclude the chapter by taking a bit of a deeper dive into the statistical distributions of asset returns. The
+arithmetic average measures the first moment of a distribution—its centrality. The standard deviation captures the
+second moment, the dispersion around the mean. With these metrics in mind, consider the frequency distribution,
+or histogram, for the large-company stock portfolio’s annual returns for our 94-year sample period below.
+
+mw =12.1%
+20
+2017 2021
+2016 2019
+2014 2009
+3012 2006
+
+2015 2010 2004 2013
+2000 2007 1988 2003 1997
+1990 2005 1986 1999 1995
+1981 1994 1979 1998 1991
+1977 1993 1972 1996 1989
+1969 1992 1971 1983 1985
+1962 1987 1968 1982 1980
+2022 1953 1984 1965 1976 1975
+2018 1946 1978 1964 1967 1955
+2001 1940 1970 1959 1963 1950
+1973 1939 1960 1952 1961 1945
+2002 1966 1934 1956 1949 1951 1938 1958
+2008 1974 1957 1932 1948 1944 1943 1936 1935 1954
+1931 , 1937, 1930 , 1941 , 1929 , 1947 , 1926 , 1942 , 1927 , 1928 , 1933
+-60 -50 -40 -30 -20 ~--10 0 10 20 30 40 50, 60 70 Percent
+-30 -20 -lo 0 t+lo +20 +30
+
+The large-stock portfolio’s mean return is 12.1 percent per year, and its standard deviation is 19.8 percent. Most
+of the yearly return observations cluster around the mean. As you move away from the mean and toward the tails,
+as measured by standard deviations, observations become rarer, to the point where there are no observations beyond
+plus or minus three standard deviations. Painting in broad brushstrokes, the frequency distribution looks humped in
+the middle, then tapers away as you move away from the peak in either direction. If you use your imagination, or
+perhaps if we had a thousand observations instead of ninety or so to smooth out the shape, you can visualize that
+the plot looks kind of like a bell curve. The normal distribution is symmetric about its peak at the mean. Two
+parameters completely characterize its shape—the mean and the standard deviation. If we assume asset returns are
+normally distributed, like many other random variables in nature, we gain the enormous advantage of being able to
+assign probabilities to future events. Of course, we recognize that normality is an assumption, and the quality of the
+estimated probabilities will only be as good as how well the normal distribution approximates the true distribution
+of asset returns that the underlying random process generates.
+
+Nonetheless, we will assume asset returns are normally distributed so we can assign probabilities to uncertain
+future events. The well-known property of the normal distribution is that we expect 68 percent of the observations
+to fall within one standard deviation below and above the mean. Extending the range to 1.96 standard deviations,
+which we will call 2.0 for simplicity’s sake, encompasses 95 percent of the observations. And, as we all know, 99
+
+19
+
+
+--- Page 20 ---
+percent of the observations fall within plus and minus three standard deviations of the mean. As noted above, the
+mean of the large-company stock portfolio is 12.1 percent, and the standard deviation is 19.8 percent. Given these
+two parameters, the figure below provides return ranges and their associated probabilities.
+
+Probability
+
+68%
+
+95%
+_ ——__| 99% — rr
+-30 -20 -lo 0 +lo +20 +30
+
+-474%  -27.6% -7.8% 12.1% 31.8% 51.6% 71.4%
+Return on large-company stocks
+
+The bell curve above is quite sobering. If the future is like the past, you will earn an average return of about 12
+percent per year if you hold the portfolio for a very long time, decades, in fact. However, you should expect extreme
+volatility on the road to that juicy return with all its attendant happiness-inducing consumption. There is a 99 percent
+chance that next year, you will lose almost half your money, be up by over 70 percent, or land anywhere in between.
+Now that’s uncertainty. Consider a one standard deviation from the mean, a range of losing about 8 percent to
+gaining more than 30 percent. That’s saying that every one in three years or so, you will realize a return from
+holding large-company stocks that is more extreme than losing an eighth or gaining a third. Simply put, it’s an asset
+class that is not for the faint-hearted.
+
+If we extend the normality assumption to the other asset classes, we can use their respective means and standard
+deviations to estimate the likelihood of future realizations from the underlying random processes. Recall the
+following summary statistics.
+
+Arithmetic Standard
+Average Deviation
+Inflation 2.9% 4.0%
+
+T-bills 3.4 3.1
+Treasurys 6.0 9.8
+Corporates 6.4 8.5
+Big Co.s 12.1 19.8
+Small Co.s 16.3 31.5
+
+A couple of comments about the summary statistics above before we use them to calculate probabilities. First, the
+Treasury bill standard deviation of 3.1 percent per year is fundamentally misleading. It seems to imply that you will
+experience volatility if you hold them. That’s patently false. All it means is that if you look back over the decades,
+the rates of return on Treasury bills were not constant for 94 years. The variation in T-bill holding period yields was
+
+20
+
+
+--- Page 21 ---
+primarily due to time-varying inflation. From a forward-looking perspective, if you buy a Treasury bill, there will
+be zero volatility in its future payouts. That’s why it is the riskless asset. In the next chapter, we will have much
+more to say about peering into the future rather than staring at the past.
+
+Second, when it comes to risk and reward, it’s clear that fixed income and equity are two totally different
+animals. The mean and standard deviation of stocks are an order of magnitude greater than those of bonds. To
+highlight this difference, consider the three-standard-deviation ranges for corporate bonds versus small-company
+stocks. They are,
+
+lower bound upper bound
+Corporates -19.1 to  +31.9%
+Small companies -78.2 to +110.8%
+
+Are corporate bonds risky? You bet they are. There’s a 99 percent chance that you will realize a return somewhere
+between losing a fifth of your money and gaining a third. But that pales in comparison to the rollercoaster ride you
+will take if you hold a small-company stock portfolio. In just one year, you may lose four-fifths of your wealth or
+more than double your money. Compared to corporates, the lows and highs are about four times as extreme. For
+those individuals chasing big fat returns who elect to invest their dollars in small company stocks, buckle up because
+it is going to be Mr. Toad’s wild ride. Yeehaw!
+
+Let’s calculate one last probability before we leave this chapter. For the brave soul willing to endure the tumult
+of a small-company stock portfolio, a reasonable question would be, “What is the likelihood that I will lose money
+next year?” In other words, what’s the probability of realizing a return below zero percent?
+
+We first determine how far away zero is from the mean. It is 0 — 16.3 =—16.3, or 16.3 percent below the mean.
+Next, we standardize the distance by dividing by the standard deviation of 31.5 percent, -16.3 + 31.5 = 0.5175.
+Zero percent is 0.5175 standard deviations below the mean of 16.3 percent. The 0.5175 distance is the z-score you
+know and love from statistics. In general,
+
+z-score = target
+o
+Next, we look up the z-score of 0.5175 on a standard normal cumulative distribution table or use Excel. Though
+there are procedures to interpolate values not listed on the table, we will simply use the closest value, which is —
+0.52. The probability of being 0.52 standard deviations below the mean next year is 0.3015. That means there is
+about a 30 percent chance of realizing a small-company stock return of less than zero percent. Put another way,
+there’s a 30 percent likelihood your portfolio will lose money next year.
+
+Now consider an outcome on the upside. If you hold a small stock portfolio, what is the chance you will earn
+
+20% or more next year? Begin by calculating the associated z-score.
+
+z-score = 22163 _ 9.1175
+31.5
+
+The nearest value on the cumulative normal table is 0.12, with an associated probability of 0.5478. That’s the chance
+an observation will land 0.12 standard deviations above the mean or lower. The table provides the area under a
+standard normal distribution to the /eft of the given z-score. That’s not what we want. We’re trying to estimate how
+likely it is that an observation will be 0.12 standard deviations above the mean or more. The area under the curve is
+one. To get the probability of a small stock annual return of 20% or more, we subtract 0.5478 from one, which is
+
+21
+
+
+--- Page 22 ---
+0.4522. Assuming normality of returns, there is a 45.22% chance the portfolio will generate a return of at least 20%
+next year.
+
+Since we determined the z-scores and probabilities for either losing money or doing better than 20%, we
+conclude by combining the two cases. What’s the chance the portfolio will have a return that lands between 0% and
+20%? That is, between standard deviations of —0.52 and 0.12, respectively? The probability of interest is the area
+under the normal curve between the two z-scores. It is the probability of being below 0.12, 54.78%, minus the
+probability of being below —0.52, 30.15%. That area is 54.78% minus 30.15% which is 24.63%. In other words,
+about once every four years, a small company stock portfolio will realize an annual return between zero and twenty
+percent.
+
+Capital market history delivers the results we expected. We expect the riskless asset to cover expected inflation and
+provide a real return to compensate for the burden of waiting to consume. Treasury bills do. Fixed-income securities
+have many perils to varying degrees, including interest rate, credit, liquidity, and reinvestment risks. We expect
+risk-averse bondholders will demand extra compensation to bear these significant economic bads. They do.
+Stockholders hold the business enterprise’s riskiest position as the residual claimants. By definition, they face the
+maximum uncertainty, so we expect them to reap handsome rewards for the wild volatility they will endure. The
+data says stocks deliver enormous expected consumption, so great, in fact, it’s an empirical puzzle.
+
+But let’s not lose sight of the end game here. We are trying to make good capital budgeting decisions, and if we
+use discounted cash flow techniques, we need an appropriate required return. Capital market history tells us that the
+return must be risk-adjusted. Suppose the project under consideration is about as risky as fixed-income. In that case,
+the risk premium should be in the neighborhood of three percent per year on top of whatever Treasury bills currently
+yield. If, instead, the project’s risk profile is similar to a stock, then tack on a hefty risk premium of eight to ten
+percent. In the next chapter, we shift our perspective from looking back at history to peering forward into an
+uncertain future. Along the way, we will develop a model that will help us better approximate the project’s
+appropriate risk-adjusted discount rate beyond the broad brushstrokes capital market history affords.
+
+22
+
+

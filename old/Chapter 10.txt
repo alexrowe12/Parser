@@ -1,0 +1,995 @@
+--- Page 1 ---
+Chapter Ten
+
+Modelling Risk and Its Reward
+
+Looking back at capital market history provides convincing empirical evidence that market participants with notable
+wealth at stake are risk-averse. The unambiguous conclusion is that there is a risk-reward tradeoff, a pillar of finance
+that this book exposed you to as early as possible. We now shift our perspective from the past to the future. Investing
+in a project or financial asset means choosing how to allocate scarce capital in the face of an unknown future. The
+problem at this point is that we do not yet have a quantitative model that measures risk and predicts the expected
+rewards. In other words, it’s one thing to say that bearing greater risk should produce more expected consumption
+as compensation. It is an entirely different thing to forecast that accepting X additional units of risk should pay a
+risk premium of Y expected basis points. The latter requires a model, which is the subject of this chapter.
+
+We initially modeled uncertainty with the simple binomial model in Chapter Three. Recall the two assets we
+considered then and their state-contingent payouts and returns.
+
+0 1
+$1 9.89%
+
+Safety Asset $0.91
+$1 9.89%
+
+$2 129.89%
+Risky Asset $0.87
+$0 -100%
+The probability of moving up or down was the same, fifty percent for each outcome. Given the probabilities, we
+found the following expected values.
+
+Payout Return
+Safety Asset $1 9.89%
+Risky Asset $1 14.94%
+
+We saw that Risky compensates its owner with a risk premium for bearing the anticipated volatility that Safety does
+not have. That volatility is easy enough to see from the range of state-contingent payouts and returns. The critical
+question we left unanswered is this: how do we measure the risk? We answer the question presently. To do so, we
+use the forward-looking variance of the returns as an initial measure of an asset’s expected volatility.
+
+o =p (4-n) + pi(m-M) t-+P,(%-H)
+
+We designate w as the asset’s expected return. Unlike the historical variance, which gives equal weight to each
+squared deviation term, the equation above uses the probabilities as the weights. Squared deviation terms that are
+more likely to occur have a larger impact on the variance than those that are less likely. The variance’s units are
+
+1
+
+Mark J. Laplante, Ph.D.
+Copyright 2025. All rights reserved.
+Distribution of this chapter without the written consent of the author is strictly prohibited.
+
+
+--- Page 2 ---
+squared percent, which are unintuitive units. The standard deviation is the square root of the variance and yields the
+returns’ original units of percent. There is no variability in Safety’s state-contingent returns, so its variance and
+standard deviation are zero. Let’s calculate Risky’s volatility.
+
+o? =0.50(1.2989 — 0.1494)" +0.50(-1.00— 0.1494)” =1.3212
+
+Risky’s variance is 1.3212 squared percent. Taking the square root, its standard deviation is 1.14943 percent in
+decimal form, which in percentage form is 114.9% per step in the binomial model—risky indeed.
+
+Let’s apply the framework to two risky stocks, American Airlines Group Inc. (AAL) and Exxon Mobil
+Corporation (XOM), both industry leaders headquartered near Dallas, Texas. Consider two states of the world that
+significantly impact both companies: crude oil trading at a low of $20 a barrel versus a high of $100. Exxon benefits
+substantially from selling the oil it pumps out of the Gulf of Mexico at the high price, while its financial position
+deteriorates at the low price. The reverse is true for American. The cost of jet fuel, one of the airline’s most
+significant operating expenses, is highly correlated with the price of crude. Twenty-dollar crude will slash
+American’s costs and boost its profits, while the high price will produce attention-getting losses. The table below
+summarizes the situation and the companies’ state-contingent returns.
+
+State Probability AAL XOM
+$100-barrel 0.60 -6% 38%
+$20-barrel 0.40 26%  -20%
+
+Given the information above, we can calculate the stocks’ expected returns and volatilities. Here they are.
+
+Haat, = 0.60 0.06 + 0.40 x 0.26 = 0.068
+
+Ox, = 0.60(—0.06 — 0.068)" + 0.40(0.26 — 0.068)” = 0.024576
+
+Ora, = V0.024576 = 0.156767
+
+Hyon = 0.60% 0.38 + 0.40 x -0.20 = 0.148
+G2om = 0.60(0.38— 0.148)’ +0.40(—0.20- 0.148)" = 0.080736
+
+Oxo =-V0.080736 = 0.284141
+
+American’s expected return is 6.80%, with anticipated volatility of 15.7% as measured by the standard deviation.
+Exxon has an expected return of 14.8% and a standard deviation of 28.4%. They both have large standard deviations,
+meaning neither looks anything like a Treasury bill. However, Exxon is nearly twice as volatile as American. This
+is not terribly surprising. Exxon’s core business is discovering, pumping, and selling crude oil. In contrast, the price
+of jet fuel is only one variable of many that impact American’s profitability. Consequently, it is less sensitive to oil
+price shocks than Exxon.
+
+Given the additional risk in this scenario, Exxon compensates its shareholders with a higher expected return than
+American. Greater risk, greater reward, as you would expect. A cautionary note here. We are considering a single
+risk: uncertainty about oil prices. The owners of both companies face myriad other risks that will influence the
+expected returns of both stocks. We set those aside for the moment for illustrative purposes.
+
+2
+
+
+--- Page 3 ---
+Heeding the old adage, don’t put all your eggs in one basket, you realize that you do not have any special
+forecasting skills about crude prices and decide to spread your risk by purchasing both stocks. You have $20
+thousand to invest and allocate $10 thousand to each stock. You created a portfolio, a collection of assets, in this
+case, half American and half Exxon. Portfolio weights are the fractions of the total investment you allocate to each
+asset class. It is easy enough to recognize that your portfolio weights are 50/50, but let’s rigorously define portfolio
+weights for future applications. The portfolio weight of asset i, part of a portfolio with m assets, is the dollars
+invested in 7 divided by the total invested dollars.
+
+dollars invested in asset i
+
+i
+
+~ total dollars invested in the portfolio
+
+wy, = 810,000 in AAL _
+Al“ $20,000 invested
+
+wy... 810,000 in XOM _ 4 <5
+XOM “$20,000 invested
+
+Accordingly, the portfolio weights must sum to one to account for all the invested capital, as shown below.
+
+l=wt+w,+--+w,,
+In our example,
+
+1= Waar + xo
+
+1=0.50+ 0.50
+
+The seemingly simple portfolio you create with half your money in each stock to start is an equally-weighted
+portfolio. Easy enough, right? Not so much. Though easy to construct initially, equally-weighted portfolios are
+costly to maintain. For example, after a trading day, suppose American goes up while Exxon falls, which results in
+the portfolio becoming 53% American and 47% Exxon. You now have more exposure to American than you would
+like and must sell some to purchase Exxon shares. To maintain your 50-50 target asset allocation, you must regularly
+rebalance your portfolio, incurring transaction costs each time you do so. To avoid this, many institutional investors
+adopt alternative portfolio weighting strategies that do not require the trading activity an equally-weighted portfolio
+necessitates. We will have more to say about these portfolios later in the chapter. Returning to our fossil fuel-
+dependent companies, we use the portfolio weights and the state-contingent returns of the individual stocks to
+calculate the portfolio’s state-contingent returns.
+
+Ths = Waar *Trars + Wxom * "xom,s
+
+r, = 0.50 x —0.06 + 0.50 x 0.38 = 0.160
+
+$100
+Ty.s29 = 0.50 x 0.26 + 0.50 x -0.20 = 0.030
+
+Exxon’s sensitivity to oil prices partially translates to the portfolio. It performs best when the cost of a barrel is high
+and worst when it is low. With the state-contingent returns in hand, we can calculate the portfolio’s expected return
+and volatility. They are as follows.
+
+
+--- Page 4 ---
+1, , = 0.60 x 0.16 + 0.40x 0.03 = 0.108
+o? =0.60(0.16-0.108)' + 0.40(0.03 0.108)" = 0.004056
+
+o,, = 0.004056 = 0.063687
+
+The table below summarizes the expected returns and standard deviations for American, Exxon, and the 50-50
+
+portfolio.
+AAL XOM 50-50
+expected return 6.80% 14.8% 10.8%
+anticipated volatility 15.7% 28.4% 6.4%
+
+The table above demonstrates that the portfolio’s expected return is a linear combination of the expected returns of
+American and Exxon, where the relative investments act as weights. You can see this in the equations below.
+
+Thu = Waar *T rate + Wxom * Txomu
+
+Tyg = 0.50 x 0.068 + 0.50 x 0.148 = 0.108
+
+This makes sense. If, on average, half your money earns 6.8% while the other half produces 14.8%, then the
+portfolio should pay the midpoint of 10.8%. If you tilt more money toward Exxon, your portfolio’s expected return
+will move toward Exxon’s 14.8%.
+
+The anticipated volatility is the table’s fascinating result. The 50-50 portfolio’s standard deviation is /ess than
+those of the individual assets that constitute it, 6.4% versus 15.7% and 28.4%, respectively. In fact, it is an order of
+magnitude smaller than the volatilities of American and Exxon. The conclusion is both surprising and profound.
+While the portfolio’s expected return is a linear combination of the assets’ expected returns, the portfolio’s standard
+deviation is not. How can this be? Revisiting the stocks’ state-contingent returns provides the key insight.
+
+State Probability AAL XOM
+$100-barrel 0.60 -6% 38%
+$20-barrel 0.40 26%  -20%
+
+When the oil price is high, Exxon is up, and American is down. And when the cost is low, American is up, and
+Exxon is down. With both stocks constituting the portfolio, their opposing comovements cancel each other to a
+certain extent. The net effect dampens the portfolio’s overall volatility. This phenomenon is the heart of
+diversification. Investors can benefit from diversification by assembling a portfolio of assets that do not move alike.
+By doing so, the investor reduces the volatility they face without a commensurate reduction in the portfolio’s
+expected return. As a result, diversification directly impacts the investor’s risk-reward tradeoff. She can achieve a
+higher reward for a given level of risk or bear less risk for a given reward. From either perspective, the investor
+benefits from diversification by changing the tradeoffs between the economic bad, the risk, and the economic good
+for bearing it, the return. In short, diversification provides the investor with a desirable and tasty free lunch.
+
+We can see the importance of asset comovements and their effect on the portfolio’s volatility by carefully
+examining the equation for the portfolio’s variance. It is,
+
+22 2 2
+Oo = WaarOaar + WxomPxom + 2Waar Paar WxomOxom COM(Taat »7xom )
+
+4
+
+
+--- Page 5 ---
+o, = 0.50° x 0.024576 + 0.50" x 0.080736 + 2 x 0.50 x 0.156767 x 0.50 x 0.284141 x(-1) = 0.004056
+
+Oo; = 0.006144 + 0.020184 -—0.022272 =0.004056
+AAL XOM_ comovement
+
+While perhaps initially intimidating, the equations above provide crucial and intuitive insights into the factors
+influencing a portfolio’s risk. First, the riskiness of the assets in the portfolio, measured by the variances and
+standard deviations, impacts the riskiness of the portfolio. No surprise there. We saw this in the history of U.S.
+capital markets. Riskier assets held, such as small company stocks, give you a riskier portfolio. Hold less risky
+Treasurys, and you get a portfolio that’s an order of magnitude less volatile, as measured by the annual standard
+deviation, than holding small company stocks.
+
+Second, as you would expect, the assets’ portfolio weights, wm, should factor into the portfolio’s variance, and
+they do. In the example, it’s a 50-50 portfolio, but suppose the investor first increases their exposure to American
+by increasing its allocation to 90%, then switches it to 90% Exxon. The table below summarizes the results.
+
+AAL 90-10 50-50 10-90 XOM
+variance, %? 245.8 127.0 40.6 503.4 807.4
+standard deviation, % 15.7 11.3 6.4 22.4 28.4
+
+As the portfolio weight increases for a particular asset, the portfolio’s volatility moves towards its value. It must.
+You can see this in the extreme. As the investor increases their exposure to American, the portfolio more closely
+mimics the movements of American shares. In the limit, as American’s portfolio weight approaches one, the
+
+20?
+
+“portfolio’s” volatility converges on American’s. Notably, moving away from the 50-50 portfolio increases its risk,
+indicating the investor will bear more risk if they adopt less diversified allocations.
+
+Third, the portfolio’s variance is a function of the correlation between the two stocks. The correlation measures
+statistical relatedness, ranging from negative one to one. Once time resolves the uncertainty about the cost of a
+barrel of oil, the state-contingent returns of American and Exxon are perfectly negatively correlated. Their
+correlation coefficient is negative one, which appears in the comovement component of the equations above. The
+comovement term is why the 50-50 portfolio is not a linear combination of the risks of the assets in the portfolio.
+It’s why the portfolio is less risky than both American and Exxon individually.
+
+In 1952, the Journal of Finance published Portfolio Selection by Harry Markowitz, who later became a Nobel
+laureate. Arguably, it is the most important paper ever written in financial economics. In it, Harry extended the two-
+asset portfolio you just learned to many assets, wherein he emphasized the importance of the assets’ correlation
+structure in reducing the portfolio’s risk. The moral of his story and the American-Exxon portfolio above is that if
+you want to maximize the risk-reducing benefits of diversification, add assets to your portfolio that don’t move
+alike. In other words, include assets that are poorly correlated and, better still, negatively correlated ones, like
+American and Exxon. With Portfolio Selection, Modern Portfolio Theory was born, an idea founded on the impact
+asset correlations have on a portfolio’s variance. The paper forever transformed and enlightened how investors think
+about the risk-reward tradeoff.
+
+The American-Exxon example illustrates the importance of the correlation term to a portfolio’s variance and
+standard deviation. It is a highly stylized illustration based on two realizable states for oil prices in which the asset’s
+state-contingent returns are perfectly negatively correlated. Their negative comovement has enormous
+diversification benefits. In fact, if the investor searches for the asset allocation that minimizes the portfolio’s
+volatility, they will find that a mix of 64.4% AAL and 35.6% XOM results in a zero standard deviation. Essentially,
+
+
+--- Page 6 ---
+the investor can synthetically create a riskless asset from two risky ones. If the portfolio’s expected return differs
+from the yield on a T-bill, arbitrage opportunities may exist—all due to a correlation coefficient of negative one.
+
+However, the companies face many shared and unique risks beyond oil price shocks. Accordingly, their returns
+may be positively correlated or uncorrelated in those states. For example, both stock returns will likely drop if
+Congress passes stricter carbon emissions legislation. They will be highly correlated in such a state, and their
+diversification benefits will be limited. Alternatively, American faces far greater risks from a pilot’s union strike
+and terrorist hijacking than does Exxon. If either possibility becomes a reality, American’s share price will likely
+change while Exxon’s will not. Their comovements disconnect, and their unrelatedness will benefit the investor
+who holds both in their portfolio. Given these additional risks and myriad unmentioned others, the historical
+correlation between American and Exxon is 0.088. They have a weak positive relation, and an investor would reap
+diversification benefits by holding both in her portfolio.
+
+As we’ve seen, forming portfolios can significantly reduce investors’ volatility, but adding assets to the mix
+does not guarantee lower risk. For example, suppose you add Chevron Corporation (CVX) to your American and
+Exxon holdings. Consider the assets’ state-contingent returns below.
+
+State Probability AAL XOM CVX
+$100-barrel 0.60 -6% 38% 39%
+$20-barrel 0.40 26% -20% -21%
+
+Unsurprisingly, the oil stocks have highly correlated returns. Their correlation coefficient is one. Adding Chevron
+does not further diversify the investor; just the opposite. It is a redundant asset because it moves in lockstep with
+Exxon. As a result, the portfolio’s standard deviation increases from 6.4% to 14%. Holding Chevron makes the
+portfolio more sensitive to oil price shocks, not less. Adding twenty-five additional energy companies will only
+make things worse. That’s not diversification. On the contrary, it’s taking a speculative position about future oil
+prices. In contrast, holding stocks from twenty-five different industries, such as greeting cards, optical instruments,
+jewelry, wholesale dental equipment, finance services, motion pictures, and skilled nursing care facilities, will go a
+long way to diversify the risk of oil price surprises.
+
+Adding assets to a portfolio that are not perfectly correlated will improve its diversification. To illustrate the
+benefits of increasing the number of securities held, consider the following experiment. Randomly pick a single
+stock listed on the NYSE and calculate the average standard deviation of returns. Then, form an equally weighted
+portfolio of two NYSE stocks, calculate its average standard deviation of returns, and compare it to the volatility of
+the single stock. Repeat the procedure by consecutively increasing the stocks in the equally weighted portfolio. Stop
+when you reach one thousand randomly chosen stocks. The table below contains the experiment’s results.
+
+Number of Stocks Average Standard Deviation _ Ratio of Portfolio to Single
+in Portfolio of Annual Portfolio Returns Stock Standard Deviation
+
+1 49.24% 1.00
+
+2 37.36 0.76
+
+3 29.69 0.60
+
+8 24.98 0.51
+
+10 23.93 0.49
+
+20 21.68 0.44
+
+30 20.87 0.42
+
+50 20.20 0.41
+100 19.69 0.40
+
+
+--- Page 7 ---
+500 19.27 0.391
+1,000 19.21 0.390
+
+The average single stock has an annual standard deviation of returns of about 49%. Given capital market history,
+that’s about 1.5 times the volatility of the small company stock portfolio, the riskiest asset class we considered. If
+the stock is normally distributed, there is a 99% likelihood that its return will fall somewhere between the
+shareholder getting wiped out and exceeding their expected return by 150% next year. The data supports the adage
+that putting all your eggs in one basket, in this case, dollars in a single stock, is an extremely risky business and will
+be the benchmark for the rest of the table.
+
+The standard deviation drops to 37% for the two-stock portfolio. From the third column, the two-stock portfolio
+has only 76% of the volatility compared to the single stock. In other words, forming a 50-50 portfolio by throwing
+two darts at the NYSE listings in the Wall Street Journal reduces the economic bad by 24%. That’s an impressive
+risk reduction from such a simple strategy. Why not keep going? You throw three, eight, then ten darts. You keep
+throwing until you reach a thousand.
+
+Three significant patterns emerge from the exercise. First, each time you increase the number of stocks held, the
+portfolio’s standard deviation falls. Second, as you increase the number of stocks, the risk-reducing benefits of
+diversification diminish. As mentioned, doubling from one to two stocks reduces the average standard deviation by
+24%, but doubling from fifty to one hundred stocks produces only a minuscule one percent improvement. Third,
+there are limits to diversification. Doubling from five hundred to one thousand stocks is beneficial, but almost
+imperceptibly so. The process is clearly approaching an asymptote. To summarize, increasing the number of stocks
+in a portfolio has positive but diminishing marginal diversification benefits that will reduce but not eliminate the
+volatility. The figure below plots the results.
+
+50
+
+e
+
+49.2
+x
+°* 40 2
+FE 374 3
+2 3
+S 30 e a
+5 29.7 iS
+3 26.6 e
+> 23.9 e
+
+e
+
+3B 2 217 - oi . e ry e
+ie 209 a9 ae
+g 7 19.3 19.2 19.0
+uo}
+g
+3
+nH 10
+
+1 2 4 6 10 20 30 50 100 500 1,000 Market
+
+Stocks in portfolio
+
+The figure vividly illustrates that an investor can eliminate a substantial proportion of a portfolio’s volatility
+through diversification, hence the name diversifiable risk. And yet, significant risk remains that is
+nondiversifiable. Theoretically, an investor achieves the asymptotic minimum volatility by exhausting all
+opportunities to diversify further. Once she holds every risky asset, there’s nothing left to chuck in. We call the
+
+7
+
+
+--- Page 8 ---
+maximally diversified portfolio the market portfolio. It exists only in financial theory because no one can hold it
+in practice. Holding the true market portfolio is impossible because many private risky assets do not have tradeable
+claims that the general public can hold. Examples include private homes, sole proprietorships, jewelry, personal
+vehicles, and art, to name a few. As much as you might want to diversify your portfolio by holding a tiny proportion
+of your neighbor’s Jackson Pollock painting, say a hundred-thousandth of its value, you can’t!. As a consequence,
+broadly diversified stock portfolios such as the S&P500 and the NASDAQ Composite Index, among others, serve
+as proxies for the market portfolio.
+
+The central question to understanding the risk-reward tradeoff is this: What risks does holding the market
+portfolio eliminate and not? What risks are diversifiable and nondiversifiable? To answer these questions, consider
+what risks American and Exxon face beyond those already mentioned. American might crash a plane due to poor
+maintenance. Congress could increase the corporate tax rate. Exxon might discover a massive deposit of white
+hydrogen, a highly desirable fossil fuel for fighting climate change. An international treaty on travel gives American
+access to new and highly profitable routes. The Fed announces that inflation should remain low and predictable for
+the next two years. A drunken Exxon skipper runs a supertanker aground, causing a devastating oil spill in Alaska.
+These companies face these possibilities and numerous other dimensions every day in order to survive.
+
+So, how do these risks relate to the market portfolio? The investors holding the market do not care a whit about
+the pilot’s strike, an isolated hijacking or plane crash, a hydrogen discovery, a treaty, or an oil spill. These events,
+as impactful as they may be for American and Exxon shareholders, do not correlate with the other asset returns in
+the market portfolio. They affect American and Exxon and perhaps a small circle of competitors and suppliers, but
+they mean nothing to nearly every other shareholder in the universe. For example, American boosting profits by
+flying passengers between Ulaanbaatar and Dushanbe will not change the expected future cash flows of Microsoft,
+CIGNA, Mattel, and the many other thousands of publicly traded companies. These surprises generate uncorrelated
+positive and negative error terms for the respective individual expected returns. Summing these errors up over the
+thousands of securities held in the market portfolio, the average error will be zero. In short, investors holding the
+market don’t care about these risks because they have no average impact on the portfolio’s value. We call these
+diversifiable risks asset-specific, unique, idiosyncratic, and unsystematic risks because they do not change values
+beyond a single or a small number of assets.
+
+As for the oil price shocks, emissions legislation, a hijacking that foretells the start of a global geopolitical
+struggle, tax increases, and stable inflation, these are the kinds of surprises that get the attention of market holders.
+These events impact the expected future cash flows of nearly every business in the economy and their prices. Of
+course, there will be winners and losers in each realized state. Though the stock price responses may differ, they
+move for the same reason. In other words, a tax increase and stable inflation result in highly correlated error terms
+that will not cancel each other out over a portfolio with many assets. As a result, the portfolio’s value will change
+upon such revelations. Other events that generated correlated asset price changes include information about
+economic output, productivity, unemployment, interest rates, elections, regulatory and statutory changes, Supreme
+Court decisions, trade agreements, and armed conflict. These factors are nondiversifiable because they will generate
+correlated price impacts no matter how many assets the investor holds. We also call these market and systematic
+
+1 Masterworks.com sells shares that have a claim on art by Banksy, Monet, Warhol, and many others. It essentially provides
+art ETFs. The lesson is, if there’s sufficient demand for an asset that allows for speculation or diversification, the market will
+deliver it.
+
+
+--- Page 9 ---
+risks. The change in the price of a barrel of oil that motivated our earlier examples, and energy prices in general, is
+a systematic risk.
+
+With these differential risks in mind, consider the Dow Jones Industrial Average (DJIA) or simply the Dow
+or Industrials. It is a portfolio of thirty companies considered market leaders in their respective industries. Investors
+have kept an eye on the Dow every day since 1885. The Dow is a price-weighted index not value-weighted, so the
+company with the highest stock price gets the most weight, while the lowest stock price has the least. If the index
+used value-weighting, NVIDIA would be number one with a current market capitalization of nearly $5 trillion
+instead of ranking twenty-third on its price. Here is the current list of companies ranked from the largest asset
+allocation to the smallest.
+
+Company Ticker Industry
+3M Company NYSE: MMM conglomerate
+Goldman Sachs Group, Inc. NYSE: GS financial services
+UnitedHealth Group Incorporated NYSE: UNH healthcare
+Microsoft Corporation NASDAQ: MSFT information technology
+The Home Depot, Inc. NYSE: HD home improvement
+Caterpillar Inc. NYSE: CAT construction and mining
+The Sherwin-Williams Corporation NYSE: SHW materials
+salesforce.com, inc. NYSE: CRM information technology
+Visa Inc. NYSE: V financial services
+American Express Company NYSE: AXP financial services
+McDonald’s Corporation NYSE: MCD food
+Amgen Inc. NASDAQ: AMGN biopharmaceutical
+J.P.Morgan Chase & Co. NYSE: JPM financial services
+Apple Inc. NASDAQ: AAPL information technology
+The Travelers Companies, Inc. NYSE: TRV insurance
+International Business Machines Corporation NYSE: IBM information technology
+Amazon.com, Inc. NASAQ: AMZN e-commerce
+Honeywell International Inc. NASDAQ: HON conglomerate
+The Boeing Company NYSE: BA aerospace and defense
+The Procter & Gamble Company NYSE: PG fast-moving consumer goods
+Chevron Corporation NYSE: CVX petroleum
+Johnson & Johnson NYSE: JNJ pharmaceutical
+NVIDIA Corporation NASDAQ: NVDA semiconductor
+The Walt Disney Company NYSE: DIS broadcasting and entertainment
+Merck & Co., Inc. NYSE: MRK pharmaceutical
+Walmart Inc. NYSE: WMT retailing
+Nike, Inc. NYSE: NKE clothing
+The Coca-Cola Company NYSE: KO drink
+Cisco Systems, Inc. NASDAQ: CSCO information technology
+Verizon Communications Inc. NYSE: VZ telecommunications
+
+
+--- Page 10 ---
+As we saw in our diversification experiment earlier, on average, a portfolio of thirty stocks eliminates 42% of
+the volatility compared to holding a single stock. But those securities were randomly chosen and had equal portfolio
+weights. The companies in the Dow are selected because they are prominent firms in many different industries, as
+you can see in the table above. In addition, the index is price-weighted, not equally weighted. The net effect is that
+the Dow offers superior diversification benefits. While the many industries represented have systematic risk
+exposures, it is improbable that they will move in lockstep for any given market shock.
+
+For example, a systemic interest rate surprise will likely affect all the Dow companies, but there will be
+differential impacts. Significant interest rate changes will have an outsized influence on the financial services and
+insurance companies and almost none on the food, retailing, chemical, and drink industries. Simply put, the
+companies won’t move alike, and the investor will reap the risk-reducing benefits of diversification. Having said
+that, the Dow is not maximally diversified. It holds only thirty stocks and over-represents some industries, namely
+financial and technology companies, which are more than a third of the constituents.
+
+In addition, having thirty stocks reduces the investor’s exposure to uncorrelated asset-specific shocks, but it is
+far from eliminating them. A Wall Street Journal quote makes the point: “Boeing sliced 153 points from the Dow
+Jones Industrial Average.” Why? Boeing shares tumbled 5% after a second deadly crash of its latest 737 MAX
+aircraft. That’s a terrible idiosyncratic event for Boeing, but it is entirely uncorrelated with the expected future cash
+flows of the other Dow members. Only in the most far-fetched stories can one imagine two 737 crashes changing
+burger sales at McDonald’s. And what Boeing takes away from the Dow with one hand, it gives back with the other,
+as this WSJ headline attests: “Thank Boeing for the Dow’s Latest Rise.” The reason this time? British Airways
+signed a letter expressing its intent to purchase 200 737 MAX aircraft several months after the fatal crashes, a
+significant vote of confidence by British Airways in Boeing. The conclusion is that investors bear some diversifiable
+risk when they hold the Dow. With so few stocks, an uncorrelated awesome or abominable day for one firm can
+move the value of the entire portfolio, and that’s risky.
+
+Stepping away from our discussion about diversifiable versus nondiversifiable risks briefly, a couple of further
+comments bear mentioning. First, from the table above, it’s clear that the stocks listed on the NYSE dominate those
+on NASDAQ. This highlights a widely held perception that, in general, NYSE companies are more prestigious than
+those on NASDAQ. Apple and Microsoft are glaring exceptions, but the perception persists nonetheless.
+
+Second, compare the current members of this exclusive club to some of the companies at its inception. They
+include the American Cotton Oil, Sugar, and Tobacco Companies. The U.S. Leather and Rubber Companies were
+at the start as well. So, too, were the Chicago Gas, National Lead, Tennessee Coal & Iron, and Distilling & Cattle
+Feeding Companies. Notably, General Electric was there at the beginning of the DJIA. All were considered giants
+in their sectors. Only General Electric survived, and the Dow Jones Company removed it from the index in 2018.
+
+The evolution of the Dow Jones Industrial Average mirrors the changes in the U.S. economy. The founding
+companies primarily produced raw materials for manufacturing processes. Now, the more ephemeral financial and
+technology industries dominate the index. The biopharmaceutical, aerospace, semiconductor, and broadcasting
+industries of today were unimaginable fantasies in the 1800s. The transformation of the Dow calls to mind the work
+of Austrian economist Joseph Schumpeter. He characterized capitalism as a process of creative destruction. “[A]
+process of industrial mutation that incessantly revolutionizes the economic structure from within, incessantly
+destroying the old one, incessantly creating a new one.” The DJIA embodies the creative destruction process and
+will continue to do so as long as American entrepreneurs chase big money-making ideas.
+
+10
+
+
+--- Page 11 ---
+Returning to risk, our measures of stock volatility, the variance and standard deviation, capture all underlying
+reasons for price changes. For American, the price variability results from plane crashes, increased taxes, beneficial
+treaties, and stable price levels. For Exxon, it’s resource discovery, increased taxes, stable price levels, and drunken
+sailors. In both cases, the standard volatility measures capture stock movement for a// reasons, both unsystematic
+and systematic. The conclusion is that the variance and standard deviation measure the total risk for individual
+securities.
+
+In contrast, only nondiversifiable events change the market’s value. Idiosyncratic events don’t move the needle
+and are irrelevant. Therefore, the market’s variance and standard deviation entirely reflect systemic risks and
+nothing but systemic risks.
+
+An unskilled investor holding the market portfolio eliminates about 60% of the risk relative to the average single
+stock. That’s ridding oneself of 60% of the economic bad without a commensurate reduction in the economic good,
+the expected return. A risk-averse investor should find such an opportunity appealing. However, perhaps it is costly
+to do, and the transaction costs prevent the risk-averse investor from eating this free lunch. But is it free? What does
+it cost to diversify away unsystematic risk? In today’s highly competitive and efficient U.S. capital markets, one
+can hold the entire market through the Vanguard Total Stock Market Index Fund ETF (VTI), which holds 3,793
+companies, as cheaply as buying only shares of Sysco Corporation. In fact, it will be cheaper to own the stock
+market if you let Vanguard reinvest your dividends rather than attempting to reinvest Sysco’s dividends on your
+own’.
+
+An investor without financial acumen can costlessly eliminate the idiosyncratic risk from their portfolio. What
+remains is the market risk, which they cannot avoid costlessly. The systematic risk principle states that the market
+rewards investors for bearing risks they can’t avoid through diversification and not for the ones they can. In other
+words, investors earn basis points for accepting systematic risk and not a penny for any asset-specific risk they
+foolishly take on. With the systematic risk principle in mind, consider the annual standard deviation of returns for
+the Total Stock Market Index and Sysco. They are 15.8% and 22.2%, respectively, for twenty years of monthly
+data. Should the securities’ expected returns be a function of the standard deviations or something else?
+
+The market’s standard deviation only incorporates price movements that result from systemic events, so it is an
+acceptable measure of the market’s risk. In contrast, Sysco’s 22.2% incorporates market movements and events
+that only impact Sysco. The standard deviation captures the total risk of owning Sysco shares. From a portfolio
+perspective, Sysco’s idiosyncratic risk is irrelevant. It is nothing more than independent white noise that will cancel,
+and be canceled by, the independent white noise produced by the portfolio’s other assets. What is relevant to the
+investor is the volatility Sysco brings to the portfolio, which does not wash out. That’s Sysco’s marginal contribution
+to the portfolio’s systematic risk.
+
+By building on the pioneering work of Harry Markowitz, Nobel Laureate William Sharpe, and Jack Treynor
+independently developed models that distinguish the importance of systematic from unsystematic risks from a
+portfolio perspective. The result of their research is the beta coefficient. It is a measure of an asset’s sensitivity to
+systematic risks. For any asset i, it is
+
+? Full disclosure. Sysco has a dividend reinvest plan (DRIP) where the company will reinvest your dividends in their stock
+on your behalf to save you the expense. That’s great, but does not help you should you wish to reinvest the dividends in a
+different company.
+
+11
+
+
+--- Page 12 ---
+To understand how beta works, begin with the denominator. The market’s volatility was 15.8% per year for the
+VTI in the sample period. The market portfolio holds every asset, so one can think of it as an average of all its
+investments. Thinking of the market portfolio as the average risky asset in the economy is a fruitful interpretation.
+Combining this view with the fact that the market’s standard deviation of returns reflects only systemic events, we
+can interpret the denominator as a measure of the average asset’s sensitivity to market risk. The average asset’s
+nondiversifiable risk is the equation’s benchmark or reference point.
+
+Now, turn your attention to the numerator. It contains asset i’s standard deviation, its total risk. For an individual
+stock, it has systematic and unsystematic components. What matters for the portfolio’s risk is only the systemic
+portion. That’s where the correlation coefficient enters the story. The correlation captures the statistical relatedness
+between market returns and those of i. The logic is straightforward. Systematic events produce realized market
+returns, and the correlation measures when the market and i move for the same reason. In that case, it captures when
+i moves due to nondiversifiable shocks.
+
+Beta’s numerator is the product of the asset’s total risk and the correlation between the asset and market returns.
+In doing so, the correlation coefficient rescales the asset’s standard deviation, its total risk, to extract the systematic
+portion. For example, suppose the correlation is one. That means the asset’s price only moves in response to market
+movements, in which case 100% of the total risk is systemic. In contrast, if the correlation is zero, none of the total
+risk is systematic. Such an asset only moves for idiosyncratic reasons. The product leaves asset i’s sensitivity to
+systematic risk in its beta’s numerator.
+
+Putting it all together, beta measures i’s sensitivity to market risk in the numerator and that of the average asset
+in the denominator. Therefore, the beta coefficient is a unitless measure of relative systematic risk. If an asset moves
+more than the average because of a market event, its beta will be greater than one. In contrast, if an asset is less
+sensitive to market shocks, its beta will be less than one. Two special cases bear mentioning. First, applying the
+beta’s definition to a riskless Treasury bill, we see that the T-bill’s beta is zero.
+
+_ Oy COIK (Ty sty) 0x0_
+
+By = 0
+
+ou Ou
+
+A treasury pays the same face value in all states, so its standard deviation of state-contingent returns is zero. In
+addition, market returns vary across states, while those of a T-bill do not, so the correlation between them is zero.
+We conclude that, by definition, a riskless security has a zero beta.
+
+Second, the beta of the market portfolio and its proxies must be one, as you can see below.
+
+By, = Oy, COIT (Ty Ty) —ouxl_,
+
+ou ou
+
+A riskless asset has a zero beta, and the market’s beta is one. Now consider the beta of an individual stock.
+Suppose the market’s annual standard deviation of returns is 20%. Further, American Electric Power’s (AEP)
+standard deviation is 30%, while its correlation with the market is 0.40. Given this information, we calculate AEP’s
+beta below.
+0.3x0.40 0.12 _
+
+———_ =—-= 0.60
+0.20 0.20
+
+Pree =
+
+12
+
+
+--- Page 13 ---
+As measured by the correlation coefficient, forty percent of AEP’s total risk is systematic. Comparing AEP’s
+systematic risk in the numerator to the market’s sensitivity to systematic shocks in the denominator, the company
+only has sixty percent of the sensitivity to market movements as the average asset. Thus, its stock beta is 0.60. AEP
+has market risk, but significantly less than the market. That’s not surprising. While we expect electrical consumption
+to vary positively with economic output, we do not expect it to fluctuate wildly due to changes in interest rates,
+inflation, and trade wars. AEP’s smallish positive beta reflects these facts.
+
+Theoretically, the beta coefficient is forward-looking. It is a function of the anticipated volatility of the asset and
+the market and their expected comovement in the future. Predicting future state-contingent outcomes and their
+associated probabilities is difficult, if not impossible. It is common practice to estimate the beta coefficient with an
+ordinary least squares (OLS) regression using past data, typically five years of monthly returns, and hope the future
+looks like the past. Note that it is not a coincidence that we call both an asset’s systematic risk coefficient and a
+regression’s slope coefficient beta. The results for Sysco and VTI as the market proxy are below.
+
+beta intercept
+coefficients 0.65 0.002
+t-statistic 6.65 0.45
+
+p-value <0.00001 0.327
+R-squared 0.272
+
+You can see the line of best fit in the scatterplot below.
+
+20%
+
+15%
+
+10%
+
+10%
+
+-10%
+
+Sysco returns, monthly %
+
+-15%
+
+Market return, monthly %
+
+Sysco’s estimated beta is 0.65, which is similar to American Electric Power’s and for largely the same reasons.
+Sysco delivers food to restaurants, hotels, and cafeterias. While eating out may vary due to population growth and
+changes in gross domestic product, it does vary much for other nondiversifiable reasons. With a t-stat of 6.65, we
+reject the null hypothesis that there is no relation between Sysco and the market at better than the 1% confidence
+level. The intercept is indistinguishable from zero. What is very interesting is the regression’s R-squared. It indicates
+that variation in market returns only explains 27.2% of the variation in Sysco’s stock returns. In other words, about
+
+13
+
+
+--- Page 14 ---
+27% of Sysco’s total risk is systematic, while the remaining 73% is unique to Sysco. Sysco has a lot of idiosyncratic
+risk.
+
+One notable feature of the figure is that the line is upward-sloping at less than a 45-degree angle, indicating
+Sysco’s beta is positive and less than one. A striking feature of the scatterplot is that the data don’t cluster tightly
+around the line. Yes, there appears to be a positive relationship between the market and Sysco, but quite a few
+observations are relatively distant from the line. This feature of the scatterplot is why the R-squared is so low.
+There’s a lot of variation in Sysco that is unrelated to the market. As data becomes more densely packed around the
+line, the regression’s R-square will increase, as will the proportion of a stock’s total risk due to systemic events.
+
+To highlight this, consider the scatterplot for two market proxies, the VTI and S&P500, below. The slope
+coefficient estimate is 0.973 with a ¢-stat of 116.4. The regression’s R-squared is 99.1%, which explains the tight
+clustering of the data points around the line of best fit in the figure. A comparison of the two scatterplots shows us
+that most of Sysco’s stock price volatility is not due to market-moving surprises, while the systematic risk of the
+S&P500 is almost entirely due to such nondiversifiable perturbations.
+
+15.0%
+
+10.0%
+
+S
+
+monthly %
+
+0.0%,
+
+-15.0% 0% 5.0% 10.0% 15.0%
+
+SPY return,
+
+-10.0%
+
+-15.0%
+VTI return, monthly %
+
+Only insiders with crystal balls and fools hold individual securities. Everybody else holds portfolios. It’s worth
+mentioning that this is true even for most speculators, who typically calculate an optimal bet size that prevents them
+from putting all their eggs in one basket. Consequently, we want to know how the systematic risks of the portfolio’s
+securities contribute to that portfolio’s market risk. It’s a simple and intuitive result. A portfolio’s beta is the value-
+weighted average of the asset betas that constitute it. Here is the equation.
+
+B, =W Ah, +w,f, +--+w,B,
+
+For example, consider the following asset allocations and betas for some companies mentioned in this chapter.
+
+Company beta % of portfolio
+American 1.58 25
+Chevron 1.10 30
+
+14
+
+
+--- Page 15 ---
+Mattel 1.13 25
+Microsoft 0.90 20
+100%
+We calculate the portfolio’s beta below.
+
+B, =9.25x1.58 + 0.301.104 0.25 x1.13+0.2x 0.9 =1.1875
+
+The weighted average of the stock betas produces a portfolio beta of 1.19. The Vanguard Total Stock Market Index
+has a beta of 1.000, as you expect. So, our four-company portfolio, on average, has about nineteen percent more
+movement than the market due to systemic surprises. We expect this because 80% of the portfolio is more sensitive
+than the market, while only 20% is less so. The total effect of the portfolio weights and stock betas results in a
+portfolio that has more nondiversifiable risk than the market portfolio. Of course, the portfolio is far from exhausting
+further opportunities for diversification. Accordingly, an investor holding it will bear substantial, uncompensated,
+asset-specific risk.
+
+We now set about establishing the functional relationship between an asset’s systematic risk measured by beta, the
+economic bad, and reward for bearing it in basis points, the economic good. We begin with the conjecture that in
+equilibrium, all assets have the same reward-to-risk ratio in a semistrong form efficient market. In order to reduce
+clutter, we use the mu subscript to indicate an expected value. For example, rv, is the expected return on the market
+portfolio. Equation (1) summarizes the conjecture below.
+
+Tau Tr lu 7"
+
+B Bu ”
+
+The betas measure the systematic risks in the denominators. The numerators contain risk-premia, the expected
+returns above and beyond the riskless rate of return. The numerators measure the compensation for bearing the risks
+in the denominators. All else equal, market participants would prefer greater rewards in the numerators and lower
+risks in the denominators. The ratio measures how much compensation an investor receives per unit of risk borne.
+Again, the market plays the benchmark role of the average asset. Equation 1 says that in equilibrium, compensation
+per unit of risk for any asset should equal that of the average asset. In other words, the economic good-to-bad ratio
+should be the same for all assets.
+
+Suppose the equality does not hold. What would follow? We illustrate the possibilities with General Mills, Inc.
+(GIS) and Royal Caribbean Cruises, Ltd. (RCL). General Mills has a stock beta of 0.23, and Royal Caribbean’s is
+2.48. As measured by beta, they have risks at opposite ends of the spectrum. Assume the following disequilibrium
+arises.
+
+Tosa — "7 > Tuy — "7 > ReLu
+
+Bas Bu Beer
+
+-"
+
+Assume a riskless rate of 3.4% and substitute.
+
+ToIsu -3.4% s Twn -3.4% 5 Tectu —3.4%
+
+0.23 1 2.48
+
+
+
+--- Page 16 ---
+The market’s expected return is an average of thousands of expected returns. The prices of those thousands of
+underlying assets will not change because there’s something wonky going on with General Mills and Royal
+Caribbean stock prices. The expected return on the market isn’t going to budge an inch, or a basis point in this case.
+The Fed will not allow the riskless rate to adjust either. To regain equilibrium, the expected returns of the individual
+stocks must adjust.
+
+To see how we begin with General Mills. General Mills’ per-unit compensation for risk is higher than the average
+asset. For risk-averse investors, getting more bps for the same unit of risk borne would undoubtedly be attractive.
+Why is it so appealing? Because its stock price is too low, it generates an abnormally high expected return.
+Assuming the mispricing results from public information, profit-seeking traders will act quickly to go long General
+Mills in a semistrong efficient market. The excess demand will promptly bid up the stock price until it returns to its
+fair price. As it rises, the expected return and reward-to-risk ratio will fall. Net buying pressure will cease when
+risk-averse traders become indifferent when the compensation for risk General Mills pays and that of the average
+asset are the same. The trading activity results in reestablishing the equilibrium condition below.
+
+Vrs —3-4% _ Ty, -3.4%
+0.23 1
+
+It’s a similar story for Royal Caribbean, but in reverse. Its per-unit compensation for risk is lower than the
+average asset. Receiving fewer bps for the same unit of risk borne is a lousy deal for risk-averse traders. The root
+of the problem is that RCL’s stock price is too high, yielding an expected return that is unduly low. Again, assuming
+the mispricing results from public information, profit-seeking traders will either dump RCL from their portfolios or
+short it. The excess supply from the two sources will quickly drive the price down. How low will it go? Until it
+returns to its fair price. Because the price drops, the expected return and reward-to-risk ratio will rise. Net selling
+pressure ends when indifference grips the risk-averse traders. Once again, trading activity reestablishes the
+equilibrium condition below.
+
+Fie 34% _ 7 Faciy =3.4%
+1 2.48
+
+In a semistrong efficient market with colossal profit incentives to collect, process, and trade on public
+information to capture the abnormal returns mispricing produces, we should see the following relations when the
+markets clear.
+
+Tosa "pT Tp TROL
+
+Bais Bu Brew
+
+-"
+
+Moving forward, we assume that traders maintain the equilibrium. Recognizing the market beta is one, and with
+a bit of algebra, we rewrite Equation | as,
+
+hu =" + B(vu-)
+
+The equation above is the Capital Asset Pricing Model (CAPM). The model hypothesizes that any asset’s
+expected return is a function of three factors. It starts with the riskless rate compensating the investor for the
+anticipated erosion of purchasing power due to inflation. In addition, as we speculated in Chapter Three and saw in
+
+16
+
+
+--- Page 17 ---
+U.S. capital market history, Treasury bills cover a little bit more than inflation to pay the investor for waiting for
+their consumption.
+
+The CAPM suggests that an asset’s expected return is also a function of the expected return on the market,
+specifically, the market risk premium. The market risk premium is the economy’s average compensation to bear
+systematic risk. Notably, the CAPM predicts that the asset’s systematic risk, as measured by its beta influences the
+expected return. The asset’s beta coefficient scales up or down the market risk premium. The asset’s risk premium
+is the product of its beta and the average payment for bearing market risk. The equation below summarizes the
+factors and their impacts on the expected return.
+
+i systemic risk premium
+
+i systemic risk
+rl
+
+hig ry +  B (nw =")
+inflation & waiting average risk premium
+
+The Treasury bill and market portfolio play crucial roles in financial theories. As such, they require special
+attention. We determined earlier that the riskless asset has a zero beta, and the market’s value is one. We apply
+these observations to the CAPM to determine the riskless return on a T-bill and the expected market return below.
+
+ly =r + 0 =r
+
+"uu =F +1(ty 4 -r;) =v
+
+The above results from the CAPM confirm that a Treasury bill’s expected return is the riskless rate, and that of
+the market portfolio is the market’s expected return. Though these conclusions may seem trivial, they are not. If the
+CAPM had predicted any other outcomes, the model would be flat wrong.
+
+Suppose we use the information from the General Mills and Royal Caribbean example and further assume the
+market risk premium is 8.6% annually. If that is the case, we can use the CAPM to predict the assets’ expected
+returns. They are below.
+
+r, =3.4% + 0x8.6% =3.4%
+=3.4% + 0.23 x 8.6% =5.38%
+
+Tolsu
+
+Ty 4, =3-4% + 18.6% = 12%
+Teciys =3-4% + 2.48 x 8.6% = 24.73%
+
+All the assets receive 3.4% for expected inflation and a small real rate because investing foregoes early
+consumption for later consumption. Then, we add an asset’s risk premium. Treasury bills are riskless, so there isn’t
+one. The market portfolio pays the average annual risk premium of 8.6%, so its expected total return is 12%
+annually, consistent with U.S. capital market history. General Mills only has 23% of the market’s systematic risk,
+so its beta scales down the average risk premium. The CAPM predicts that the expected annual compensation
+General Mills shareholders will receive for bearing the company’s nondiversifiable risk is 198 bps. Because its beta
+is between that of a T-bill and the market, so too is its risk premium, which brings us to Royal Caribbean.
+
+Royal Caribbean’s beta is 248% larger than the average beta. Consequently, its risk premium is 2.48 times the
+average—a gigantic 2,133 bps. The CAPM translates massive systematic risk into massive average rewards for
+
+17
+
+
+--- Page 18 ---
+RCL’s shareholders who accept it. For individuals who are risk-neutral and focus only on expected returns rather
+than volatility, RCL makes one think, “Go big or go home.”
+
+By now, the observant student has noticed that an asset’s expected return is a linear function of its beta. Nicely
+done, because it’s true. That’s why the CAPM is also known as the Security Market Line (SML), and the terms
+are interchangeable. The riskless rate is the intercept, while the market risk premium is the line’s slope. An asset’s
+beta is the independent or choice variable. Investors pick the assets and their betas when they form portfolios. The
+CAPM postulates the resulting expected return as the dependent variable. The figure below portrays the SML.
+
+slope = ry, —7
+
+Return
+
+intercept = ry
+
+Beta
+
+Let’s revisit General Mills’ and Royal Caribbean’s earlier mispricing in the context of the Security Market Line.
+
+The graph below plots their out-of-equilibrium expected returns relative to the SML.
+
+25%
+
+20%
+
+GIS
+
+0.5 I 15 2 2.5
+Beta
+
+Both assets plot off the Security Market Line, General Mills above and Royal Caribbean below. Given a beta of
+0.23, General Mills compensates its owners with an expected return of 13%. The SML says the next best investment
+of similar risk pays 5.38% annually. What do you want for the risk, 13% or 5.38%? Thirteen percent, of course.
+This is why General is so desirable. Its abnormally low price creates an expected return that’s too large. Traders
+move quickly to profit from the anomaly. As they do so, the stock price rises, and General Mills’ expected return
+falls. In equilibrium, traders take all the easy money off the table. Correctly priced, General Mills has an expected
+return of 5.38%, the same as the next best similar asset on the Security Market Line.
+
+As for Royal Caribbean, according to the SML, it pays its shareholders too little for the systematic risk they bear
+because its price is abnormally high. Portfolio managers who hold RCL and short sellers will attempt to profit by
+selling the stock for more than it’s worth. The combined selling pressure drives Royal Caribbean’s stock price down
+
+18
+
+
+--- Page 19 ---
+and expected return up. The net selling pressure ends when traders become indifferent between Royal Caribbean
+and the next best security with the same reward-to-risk ratio, a reward of 24.73% to a beta of 2.48.
+
+The last two paragraphs captured the power of the CAPM and the Security Market Line. The model tells an
+investor what their opportunity costs are. It tells them how many basis points they forego for the same systematic
+risk if they pursue one venture over another. It measures the risk through beta and predicts the reward as the expected
+risk premium beyond what an asset pays for expected inflation and waiting. It’s been a long road since Chapter
+Three introduced the risk-reward tradeoff that results from risk-averse behavior, but finally, the CAPM tells us how
+to quantify risk and understand how many basis points we forego if we pursue a risky venture.
+
+By now, it’s understandable if you’ve lost the forest for the trees, though, to be honest, our meandering through
+the trees has been a fruitful journey. Our purpose was to explore risk and its rewards, both theoretically and
+empirically, to gain insights that will help us determine the appropriate required return on assets in capital budgeting.
+Without a high-quality estimate of the discount rate, we will not achieve reliable assessments of a project’s value-
+creating potential for the company’s shareholders. As the saying goes, garbage in, garbage out, is an outcome we
+strive to avoid as good fiduciaries.
+
+You can see how the Security Market Line relates to capital budgeting if we reconsider the original disequilibria
+involving General Mills’ and Royal Caribbean’s out-of-equilibrium risk premia. Recall that, given its risk, General
+Mills’ expected return was too high because its price was too low. Regarding capital budgeting and Chapter Nine,
+it’s an investment where you acquire it for less than it is worth. In other words, it’s a positive NPV investment that
+will enhance shareholder wealth. In contrast, Royal Caribbean’s expected return is too low because its price is
+overvalued. Given its risk, you’d pay more than it is worth and, in so doing, destroy value. It’s a negative NPV
+loser. The figure below illustrates the insights.
+
+25%
+20% Positive NPV
+RCLe
+= 150) se Zero NPV
+oO
+w~ 10%
+50 Negative NPV
+‘0
+0%
+" 0.5 I 15 2 2.5
+Beta
+
+Projects that land above the SML are share-enhancing winners because the firm can acquire them for less than
+the present value of their expected future inflows. Projects below the SML are more expensive than the expected
+value they will create, and a manager acting in the owners’ best interests will avoid them. Projects on the Security
+Market Line neither create nor destroy value. As stated elsewhere, the owner does not hire the manager to not create
+value, so a value-maximizing manager avoids spending scarce CapEx on projects that fall on the SML. As a
+corollary, since the projects on the Security Market Line are zero net present value endeavors, the SML provides
+the project’s internal rate of return. In other words, the Capital Asset Pricing Model provides the economy’s set of
+internal rates of return for all correctly priced projects. Worthy of a Nobel Prize, no doubt.
+
+19
+
+
